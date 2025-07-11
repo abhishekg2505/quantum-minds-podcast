@@ -1,11 +1,12 @@
 import {
   bitcoin,
   bittwome,
-  blockchain,
   blockchainmagazine,
+  blockchainreporter,
   blockhead,
   catenaa,
   cim,
+  coinchapter,
   coincu,
   coinedition,
   coingape,
@@ -17,11 +18,13 @@ import {
   cryptopolitan,
   cryptoslate,
   cryptoweekly,
+  disruptionbanking,
   dlnews,
   droomdroom,
   forklog,
   koreaittimes,
   ngglobalmedia,
+  santiment,
   startupnews,
   thecoinrepublic,
   thecryptonomist,
@@ -39,14 +42,15 @@ export const mpLogos = [
     alt: bittwome,
     url: "https://bit2me.com/",
   },
-  {
-    src: blockchain,
-    alt: blockchain,
-    url: "https://www.blockchaintoday.co.kr/",
-  },
+
   {
     src: blockchainmagazine,
     alt: blockchainmagazine,
+    url: "#",
+  },
+  {
+    src: blockchainreporter,
+    alt: blockchainreporter,
     url: "#",
   },
   {
@@ -63,6 +67,11 @@ export const mpLogos = [
     src: cim,
     alt: cim,
     url: "https://cryptoindiamagazine.com/",
+  },
+  {
+    src: coinchapter,
+    alt: coinchapter,
+    url: "#",
   },
   {
     src: coincu,
@@ -120,6 +129,11 @@ export const mpLogos = [
     url: "https://cryptoweekly.co/",
   },
   {
+    src: disruptionbanking,
+    alt: disruptionbanking,
+    url: "#",
+  },
+  {
     src: dlnews,
     alt: dlnews,
     url: "https://www.dlnews.com/",
@@ -143,6 +157,11 @@ export const mpLogos = [
     src: ngglobalmedia,
     alt: ngglobalmedia,
     url: "https://www.ncglobalmedia.com/",
+  },
+  {
+    src: santiment,
+    alt: santiment,
+    url: "#",
   },
   {
     src: startupnews,
