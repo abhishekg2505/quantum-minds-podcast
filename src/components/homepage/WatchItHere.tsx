@@ -20,7 +20,7 @@ const threats: ThreatCardProps[] = [
   },
   {
     title: "20M+",
-    description: "Reach through Media Partners",
+    description: "Reach",
   },
 ];
 
@@ -59,7 +59,7 @@ const WatchItHere: React.FC = () => {
       </div>
       <div
         ref={sectionRef}
-        className="px-0 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-6 rounded-xl md:px-6 pt-0 pb-[30px]"
+        className="px-0 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-6 rounded-xl md:px-6 pt-0 pb-[30px] bg-black"
       >
         {threats.map((threat, index) => (
           <div

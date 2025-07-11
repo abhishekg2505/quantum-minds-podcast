@@ -13,7 +13,7 @@ const MpGrid = () => {
             Global Media Partners
           </span>
         </h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-10 gap-y-[60px] items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-10 gap-y-[30px] items-center">
           {mpLogos.map((logo, idx) => (
             <Link
               href={logo.url}

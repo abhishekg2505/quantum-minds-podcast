@@ -97,7 +97,7 @@ export default function HeroSection() {
     <>
       <section
         ref={containerRef}
-        className="relative w-full bg-[url('/images/homepage/hero-banner-mobile.webp')] md:bg-[url('/images/homepage/hero-banner.webp')] bg-cover bg-right"
+        className="relative w-full bg-[url('/images/homepage/hero-banner-mobile.webp')] md:bg-[url('/images/homepage/hero-banner.webp')] bg-cover bg-right-top"
       >
         <div className="absolute left-0 top-0 px-4 md:px-20 pt-[30px]">
           <Image

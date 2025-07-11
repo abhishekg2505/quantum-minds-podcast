@@ -109,14 +109,15 @@ const AboutKapil = () => {
             <h6 className="text-h5 font-antonio font-bold  mb-2">Meet your Host,</h6>
             <h3
               ref={mainTitleRef}
-              className="text-h4 text-left md:text-h2 font-antonio font-semibold"
+              className="text-h4 text-left md:text-h3 font-antonio font-semibold"
             >
               <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
-                KAPIL DHIMAN
+                Quantum Minds Podcast by Quranium | Uncrackable Conversations with Tech Visionaries
               </span>
             </h3>
             <p ref={headingRef} className="text-p2 font-open-sans text-left mt-5 mb-5">
-              Co-Founder & CEO, Quranium
+              Sit down and tune in with host Kapil Dhiman as he explores groundbreaking insights
+              from leaders in blockchain, AI, quantum tech & beyond. Season 2 drops soon!
             </p>
 
             {/* Inline Pill Box */}

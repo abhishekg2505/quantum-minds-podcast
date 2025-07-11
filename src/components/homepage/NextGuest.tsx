@@ -112,7 +112,7 @@ const NextGuest = () => {
             className="w-full mb-5 md:mb-0"
           />
         </div>
-        <div className="relative px-4 md:px-10 py-10 md:py-40 container mx-auto">
+        <div className="relative px-4 md:px-10 py-10 md:pt-[395px] md:pb-[265px] container mx-auto">
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <h3
               ref={mainTitleRef}
