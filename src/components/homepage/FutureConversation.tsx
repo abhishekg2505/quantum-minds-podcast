@@ -91,7 +91,7 @@ const FutureConversation = () => {
             <RoadshowCarousel />
           </div>
         </div>
-        <div className="absolute left-0 top-[130px] max-w-[550px]">
+        <div className="md:absolute md:left-0 md:top-[130px] max-w-[550px]">
           <div className="flex flex-col items-start justify-start mt-10 md:mt-0 relative w-full z-10">
             <h3
               ref={mainTitleRef}

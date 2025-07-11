@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <footer className="overflow-hidden relative z-10 bg-black border-t border-white-1/20 text-white">
       <div className="max-w-[1440px] mx-auto relative z-10 px-4 md:px-10 lg:px-16 xl:px-20">
-        <div className="flex space-x-28 items-center justify-center w-full pt-[30px]">
+        <div className="flex space-x-10 md:space-x-28 items-center justify-center w-full pt-[30px]">
           {socialMedia.map((social) => (
             <Link href={social.link} key={social.name} target="_blank">
               <Image

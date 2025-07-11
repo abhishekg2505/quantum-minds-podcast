@@ -24,7 +24,7 @@ const config: Config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#0C0318",
+        background: "#000000",
         foreground: "hsl(var(--foreground))",
         violet: {
           1: "#601DFF",

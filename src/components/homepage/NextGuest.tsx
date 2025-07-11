@@ -98,10 +98,10 @@ const NextGuest = () => {
       <div
         id="be-a-guest"
         ref={sectionRef}
-        className="relative px-4 md:px-20 bg-[url('/images/homepage/nextguest-bg.webp')] md:bg-cover bg-center md:bg-top"
+        className="relative px-4 md:px-20 bg-[url('/images/homepage/nextguest-bg.webp')] bg-contain md:bg-cover bg-center md:bg-top"
       >
         <div
-          className="absolute right-10 -top-10 bg-gradient-to-b from-transparent to-black"
+          className="hidden md:block absolute right-10 -top-10 bg-gradient-to-b from-transparent to-black"
           ref={triangleRef}
         >
           <Image
