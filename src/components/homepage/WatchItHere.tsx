@@ -49,7 +49,7 @@ const WatchItHere: React.FC = () => {
 
   return (
     <>
-      <div className="px-4 md:px-20 pt-10">
+      <div className="px-4 md:px-20 pt-10 bg-black">
         <h3 className="text-h4 md:text-h3 font-antonio font-semibold text-left mb-10">
           <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
             Season #1

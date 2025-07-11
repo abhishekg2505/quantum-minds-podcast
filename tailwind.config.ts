@@ -104,7 +104,7 @@ const config: Config = {
         // P2 - Open Sans Regular
         p2: ["16px", { lineHeight: "28px", letterSpacing: "0em" }],
         // BUTTONS - Montserrat Medium
-        buttons: ["16px", { lineHeight: "26px", letterSpacing: "-0.02em" }],
+        buttons: ["28px", { lineHeight: "40px", letterSpacing: "-0.02em" }],
         // P3 - Open Sans Regular
         p3: ["14px", { lineHeight: "auto", letterSpacing: "0em" }],
         // P4 - Open Sans Regular

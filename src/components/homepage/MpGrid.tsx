@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const MpGrid = () => {
   return (
-    <div className="px-4 pb-20 bg-black">
+    <div id="media-partners" className="px-4 pb-20 bg-black">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-h4 md:text-h3 font-antonio font-semibold text-center mb-10">
           We are Backed by{" "}
