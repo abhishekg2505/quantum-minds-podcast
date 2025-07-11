@@ -5,6 +5,8 @@ import MpGrid from "@/src/components/homepage/MpGrid";
 import NextGuest from "@/src/components/homepage/NextGuest";
 import AboutKapil from "@/src/components/homepage/AboutKapil";
 import SubscribeBanner from "@/src/components/homepage/SubscribeBanner";
+import WatchItHere from "@/src/components/homepage/WatchItHere";
+import PodcastList from "@/src/components/homepage/PodcastList";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       <AboutKapil />
       <SubscribeBanner />
       <ReleasingSoon />
+      <WatchItHere />
+      <PodcastList />
       <SeasonOneGuests />
       <MpGrid />
       <NextGuest />
