@@ -6,7 +6,7 @@ export const footer = [
     links: [{ name: "About Host", href: "#about-host" }],
   },
   {
-    title: "Quranium Website",
-    links: [{ name: "Quranium Website", href: "https://www.quranium.org" }],
+    title: "About Quranium",
+    links: [{ name: "About Quranium", href: "https://www.quranium.org" }],
   },
 ];

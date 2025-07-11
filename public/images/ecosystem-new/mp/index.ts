@@ -1,4 +1,5 @@
 export { default as bitcoin } from "./bitcoin.svg";
+export { default as bitcoininsider } from "./bitcoininsider.svg";
 export { default as bittwome } from "./bittwome.svg";
 export { default as blockchainmagazine } from "./blockchainmagazine.svg";
 export { default as blockchainreporter } from "./blockchainreporter.svg";
@@ -13,6 +14,8 @@ export { default as coinpasar } from "./coinpasar.svg";
 export { default as coinpedia } from "./coinpedia.svg";
 export { default as coinwire } from "./coinwire.svg";
 export { default as cryptobreakingnews } from "./cryptobreakingnews.svg";
+export { default as cryptocoinshow } from "./cryptocoinshow.svg";
+export { default as cryptodotnews } from "./cryptodotnews.svg";
 export { default as cryptonews } from "./cryptonews.svg";
 export { default as cryptopolitan } from "./cryptopolitan.svg";
 export { default as cryptoslate } from "./cryptoslate.svg";

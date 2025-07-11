@@ -25,8 +25,8 @@ export default function Footer() {
         </div>
         <div className="py-12 flex flex-col gap-y-20 md:items-start items-center justify-between md:flex-row">
           <div className="mr-0 max-w-full lg:max-w-96 space-y-5 text-center sm:text-center md:text-left">
-            <p className="text-p2 mb-[10px]">A global community initiative by</p>
-            <Link href="/">
+            <p className="text-p2 mb-[10px]">A global initiative by</p>
+            <Link href="https://www.quranium.org" target="_blank">
               <Image src="/q-logo.svg" alt="Quranium Logo" width={152} height={22} priority />
             </Link>
           </div>

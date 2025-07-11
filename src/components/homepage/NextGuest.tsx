@@ -125,7 +125,7 @@ const NextGuest = () => {
             </h3>
             <div ref={rightCardRef} className="mt-6">
               <Link
-                href="#"
+                href="mailto:business@quranium.org"
                 target="_self"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center whitespace-nowrap"

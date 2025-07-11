@@ -115,9 +115,6 @@ export default function HeroSection() {
             <div className="max-w-7xl mx-auto hidden sm:block">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
                 <div className="max-w-[695px] inline-flex flex-col justify-start items-start">
-                  <h6 className="text-h5 font-antonio font-semibold tracking-[0.12em]">
-                    AN INITIATIVE BY QURANIUM
-                  </h6>
                   <h1 className="self-stretch  justify-start bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent text-h1 font-normal font-anton hero-title">
                     QUANTUM MINDS{" "}
                   </h1>

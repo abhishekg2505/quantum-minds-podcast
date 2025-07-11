@@ -1,5 +1,6 @@
 import {
   bitcoin,
+  bitcoininsider,
   bittwome,
   blockchainmagazine,
   blockchainreporter,
@@ -14,6 +15,8 @@ import {
   coinpedia,
   coinwire,
   cryptobreakingnews,
+  cryptocoinshow,
+  cryptodotnews,
   cryptonews,
   cryptopolitan,
   cryptoslate,
@@ -36,6 +39,11 @@ export const mpLogos = [
     src: bitcoin,
     alt: bitcoin,
     url: "https://news.bitcoin.com/",
+  },
+  {
+    src: bitcoininsider,
+    alt: bitcoininsider,
+    url: "https://www.bitcoininsider.org/",
   },
   {
     src: bittwome,
@@ -71,7 +79,7 @@ export const mpLogos = [
   {
     src: coinchapter,
     alt: coinchapter,
-    url: "#",
+    url: "https://coinchapter.com/",
   },
   {
     src: coincu,
@@ -107,6 +115,16 @@ export const mpLogos = [
     src: cryptobreakingnews,
     alt: cryptobreakingnews,
     url: "https://www.cryptobreaking.com/",
+  },
+  {
+    src: cryptocoinshow,
+    alt: cryptocoinshow,
+    url: "https://cryptocoinshow.substack.com/subscribe",
+  },
+  {
+    src: cryptodotnews,
+    alt: cryptodotnews,
+    url: "https://crypto.news/",
   },
   {
     src: cryptonews,
@@ -161,7 +179,7 @@ export const mpLogos = [
   {
     src: santiment,
     alt: santiment,
-    url: "#",
+    url: "https://www.quranium.org/quantum-minds-podcast",
   },
   {
     src: startupnews,
