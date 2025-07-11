@@ -8,9 +8,9 @@ const MpGrid = () => {
     <div id="media-partners" className="px-4 pt-20 pb-20 bg-black">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-h4 md:text-h3 font-antonio font-semibold text-center mb-10">
-          We are Backed by{" "}
+          Global{" "}
           <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
-            Global Media Partners
+            Media Partners
           </span>
         </h3>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-10 gap-y-[30px] items-center">
