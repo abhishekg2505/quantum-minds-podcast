@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function HeroSection() {
   const containerRef = useRef(null);
@@ -98,13 +99,25 @@ export default function HeroSection() {
         ref={containerRef}
         className="relative w-full bg-[url('/images/homepage/hero-banner-mobile.webp')] md:bg-[url('/images/homepage/hero-banner.webp')] bg-cover bg-right"
       >
+        <div className="absolute left-0 top-0 px-4 md:px-20 pt-[30px]">
+          <Image
+            src="/logo.svg"
+            alt="four-traingle"
+            width={128}
+            height={42}
+            className="w-full mb-5 md:mb-0"
+          />
+        </div>
         <div className="absolute inset-0 bg-black z-20 hero-overlay" />
         <div className="relative pt-[236px] pb-[236px] md:pt-72 md:pb-60 w-full">
           <div className="h-16 absolute inset-0  z-10" />
-          <div className="container mx-auto px-4 md:px-20">
+          <div className="relative container mx-auto px-4 md:px-20">
             <div className="max-w-7xl mx-auto hidden sm:block">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
                 <div className="max-w-[695px] inline-flex flex-col justify-start items-start">
+                  <h6 className="text-h5 font-antonio font-semibold tracking-[0.12em]">
+                    AN INITIATIVE BY QURANIUM
+                  </h6>
                   <h1 className="self-stretch  justify-start bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent text-h1 font-normal font-anton hero-title">
                     QUANTUM MINDS{" "}
                   </h1>

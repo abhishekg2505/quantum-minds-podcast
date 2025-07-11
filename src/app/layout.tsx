@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Staatliches, Montserrat, Open_Sans, Antonio, Anton } from "next/font/google";
-import Header from "../components/common/Header";
+// import Header from "../components/common/Header";
 import "./globals.css";
 // import SmoothScroll from "../components/common/SmoothScroll";
 import Footer from "../components/common/Footer";
@@ -99,7 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </Head>
       <body className="min-h-screen bg-slate-950 text-white-1 antialiased font-montserrat">
         <CustomCursor />
-        <Header />
+        {/* <Header /> */}
         {/* <SmoothScroll>
           {children}
           </SmoothScroll> */}

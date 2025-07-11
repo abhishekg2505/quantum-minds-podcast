@@ -7,11 +7,13 @@ import AboutKapil from "@/src/components/homepage/AboutKapil";
 import SubscribeBanner from "@/src/components/homepage/SubscribeBanner";
 import WatchItHere from "@/src/components/homepage/WatchItHere";
 import PodcastList from "@/src/components/homepage/PodcastList";
+import FutureConversation from "@/src/components/homepage/FutureConversation";
 
 export default function Home() {
   return (
     <main className="flex flex-col bg-background">
       <HeroSection />
+      <FutureConversation />
       <AboutKapil />
       <SubscribeBanner />
       <ReleasingSoon />

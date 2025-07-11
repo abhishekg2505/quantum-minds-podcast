@@ -152,9 +152,9 @@ export default function Header() {
           </div> */}
 
           {/* Mobile Nav */}
-          <div className="lg:hidden1">
+          {/* <div className="lg:hidden1">
             <MobileMenu />
-          </div>
+          </div> */}
         </div>
       </div>
     </header>

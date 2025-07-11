@@ -4,70 +4,34 @@ import Carousel from "@/src/components/common/Carousel";
 
 const images = [
   {
-    src: "/images/common/roadshow/01.webp",
+    src: "/images/homepage/marquee-images/mq1.png",
   },
   {
-    src: "/images/common/roadshow/02.webp",
+    src: "/images/homepage/marquee-images/mq2.png",
   },
   {
-    src: "/images/common/roadshow/03.webp",
+    src: "/images/homepage/marquee-images/mq3.png",
   },
   {
-    src: "/images/common/roadshow/04.webp",
+    src: "/images/homepage/marquee-images/mq4.png",
   },
   {
-    src: "/images/common/roadshow/05.webp",
+    src: "/images/homepage/marquee-images/mq5.png",
   },
   {
-    src: "/images/common/roadshow/06.webp",
+    src: "/images/homepage/marquee-images/mq6.png",
   },
   {
-    src: "/images/common/roadshow/07.webp",
+    src: "/images/homepage/marquee-images/mq7.png",
   },
   {
-    src: "/images/common/roadshow/08.webp",
+    src: "/images/homepage/marquee-images/mq8.png",
   },
   {
-    src: "/images/common/roadshow/09.webp",
+    src: "/images/homepage/marquee-images/mq9.png",
   },
   {
-    src: "/images/common/roadshow/10.webp",
-  },
-  {
-    src: "/images/common/roadshow/11.webp",
-  },
-  {
-    src: "/images/common/roadshow/12.webp",
-  },
-  {
-    src: "/images/common/roadshow/13.webp",
-  },
-  {
-    src: "/images/common/roadshow/14.webp",
-  },
-  {
-    src: "/images/common/roadshow/15.webp",
-  },
-  {
-    src: "/images/common/roadshow/16.webp",
-  },
-  {
-    src: "/images/common/roadshow/17.webp",
-  },
-  {
-    src: "/images/common/roadshow/18.webp",
-  },
-  {
-    src: "/images/common/roadshow/19.webp",
-  },
-  {
-    src: "/images/common/roadshow/20.webp",
-  },
-  {
-    src: "/images/common/roadshow/21.webp",
-  },
-  {
-    src: "/images/common/roadshow/22.webp",
+    src: "/images/homepage/marquee-images/mq10.png",
   },
 ];
 
@@ -77,12 +41,12 @@ const RoadshowCarousel = () => {
     images.slice(images.length / 2),
   ];
   return (
-    <div className="space-y-8 py-10">
+    <div className="relative space-y-8 py-10">
       <Carousel direction="left" speed={100}>
         {[...firstRow, ...firstRow].map((img, i) => (
           <div
             key={i}
-            className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
+            className="group relative flex-shrink-0 mx-2 w-[181px] h-[185px] rounded-[20px] overflow-hidden"
           >
             <Image
               src={img.src}
@@ -97,7 +61,7 @@ const RoadshowCarousel = () => {
         {[...secondRow, ...secondRow].map((img, i) => (
           <div
             key={i}
-            className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
+            className="group relative flex-shrink-0 mx-2 w-[181px] h-[185px] rounded-[20px] overflow-hidden"
           >
             <Image
               src={img.src}
