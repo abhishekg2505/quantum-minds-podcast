@@ -10,5 +10,8 @@ type ApiResponse = {
 
 export const getPodcasts = async (): Promise<PodcastData[]> => {
   const response = await get<ApiResponse>(`/api/podcasts?populate=*&sort=id:desc`);
-  return response.data;
+  const podcasts = response.data;
+  //const firstPodcast = podcasts[0].attributes;
+  const otherPodcasts = podcasts.slice(1);
+  return otherPodcasts;
 };
