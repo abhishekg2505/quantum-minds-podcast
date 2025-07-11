@@ -1,0 +1,167 @@
+import {
+  bitcoin,
+  bittwome,
+  blockchain,
+  blockchainmagazine,
+  blockhead,
+  catenaa,
+  cim,
+  coincu,
+  coinedition,
+  coingape,
+  coinpasar,
+  coinpedia,
+  coinwire,
+  cryptobreakingnews,
+  cryptonews,
+  cryptopolitan,
+  cryptoslate,
+  cryptoweekly,
+  dlnews,
+  droomdroom,
+  forklog,
+  koreaittimes,
+  ngglobalmedia,
+  startupnews,
+  thecoinrepublic,
+  thecryptonomist,
+  thejournalwire,
+} from "@/public/images/ecosystem-new/mp";
+
+export const mpLogos = [
+  {
+    src: bitcoin,
+    alt: bitcoin,
+    url: "https://news.bitcoin.com/",
+  },
+  {
+    src: bittwome,
+    alt: bittwome,
+    url: "https://bit2me.com/",
+  },
+  {
+    src: blockchain,
+    alt: blockchain,
+    url: "https://www.blockchaintoday.co.kr/",
+  },
+  {
+    src: blockchainmagazine,
+    alt: blockchainmagazine,
+    url: "#",
+  },
+  {
+    src: blockhead,
+    alt: blockhead,
+    url: "https://www.blockhead.co/tag/podcast/",
+  },
+  {
+    src: catenaa,
+    alt: catenaa,
+    url: "https://investors.catenaa.com/",
+  },
+  {
+    src: cim,
+    alt: cim,
+    url: "https://cryptoindiamagazine.com/",
+  },
+  {
+    src: coincu,
+    alt: coincu,
+    url: "https://coincu.com/",
+  },
+  {
+    src: coinedition,
+    alt: coinedition,
+    url: "https://coinedition.com/",
+  },
+  {
+    src: coingape,
+    alt: coingape,
+    url: "http://coingape.com/",
+  },
+  {
+    src: coinpasar,
+    alt: coinpasar,
+    url: "https://coinpasar.sg/",
+  },
+  {
+    src: coinpedia,
+    alt: coinpedia,
+    url: "https://coinpasar.sg/",
+  },
+  {
+    src: coinwire,
+    alt: coinwire,
+    url: "https://coinwirez.com/",
+  },
+  {
+    src: cryptobreakingnews,
+    alt: cryptobreakingnews,
+    url: "https://www.cryptobreaking.com/",
+  },
+  {
+    src: cryptonews,
+    alt: cryptonews,
+    url: "https://crypto.news/",
+  },
+  {
+    src: cryptopolitan,
+    alt: cryptopolitan,
+    url: "https://www.cryptopolitan.com/",
+  },
+  {
+    src: cryptoslate,
+    alt: cryptoslate,
+    url: "https://cryptoslate.com/",
+  },
+  {
+    src: cryptoweekly,
+    alt: cryptoweekly,
+    url: "https://cryptoweekly.co/",
+  },
+  {
+    src: dlnews,
+    alt: dlnews,
+    url: "https://www.dlnews.com/",
+  },
+  {
+    src: droomdroom,
+    alt: droomdroom,
+    url: "https://droomdroom.com/",
+  },
+  {
+    src: forklog,
+    alt: forklog,
+    url: "https://forklog.com.ua/",
+  },
+  {
+    src: koreaittimes,
+    alt: koreaittimes,
+    url: "https://www.koreaittimes.com/",
+  },
+  {
+    src: ngglobalmedia,
+    alt: ngglobalmedia,
+    url: "https://www.ncglobalmedia.com/",
+  },
+  {
+    src: startupnews,
+    alt: startupnews,
+    url: "https://startupnews.fyi/",
+  },
+  {
+    src: thecoinrepublic,
+    alt: thecoinrepublic,
+    url: "https://www.thecoinrepublic.com/",
+  },
+  {
+    src: thecryptonomist,
+    alt: thecryptonomist,
+    url: "https://en.cryptonomist.ch/",
+  },
+  {
+    src: thejournalwire,
+    alt: thejournalwire,
+    url: "https://journal-wire.com/",
+  },
+];
