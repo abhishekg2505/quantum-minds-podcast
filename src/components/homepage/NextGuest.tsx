@@ -96,10 +96,14 @@ const NextGuest = () => {
   return (
     <div>
       <div
+        id="be-a-guest"
         ref={sectionRef}
-        className="relative px-4 md:px-20 bg-[url('/images/homepage/nextguest-bg.webp')] md:bg-cover bg-center md:bg-right"
+        className="relative px-4 md:px-20 bg-[url('/images/homepage/nextguest-bg.webp')] md:bg-cover bg-center md:bg-top"
       >
-        <div className="absolute right-10 -top-10" ref={triangleRef}>
+        <div
+          className="absolute right-10 -top-10 bg-gradient-to-b from-transparent to-black"
+          ref={triangleRef}
+        >
           <Image
             src="/images/homepage/two-traingles.png"
             alt="two-traingle"
@@ -120,7 +124,12 @@ const NextGuest = () => {
               </span>
             </h3>
             <div ref={rightCardRef} className="mt-6">
-              <Link href="#" target="_self" rel="noopener noreferrer">
+              <Link
+                href="#"
+                target="_self"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center whitespace-nowrap"
+              >
                 <span className="text-h4 font-antonio text-[#08C1F0]">JOIN THE WAITLIST</span>
                 <ChevronRight className="ml-2 w-5 h-5 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1" />
               </Link>
