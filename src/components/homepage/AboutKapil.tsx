@@ -79,8 +79,8 @@ const AboutKapil = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} id="about-host" className="bg-black px-4 md:px-20">
-      <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black">
+    <div ref={sectionRef} id="about-host" className="bg-black px-4 md:px-20 overflow-hidden">
+      <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 bg-black">
         <div className="absolute right-0" ref={triangleRef}>
           <Image
             src="/images/homepage/four-traingle.png"
