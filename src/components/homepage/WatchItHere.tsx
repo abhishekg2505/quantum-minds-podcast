@@ -54,7 +54,7 @@ const WatchItHere: React.FC = () => {
           <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
             Season #1
           </span>{" "}
-          was a huge success. Watch it here.
+          was a huge success.
         </h3>
       </div>
       <div
