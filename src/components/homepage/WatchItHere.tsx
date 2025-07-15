@@ -49,14 +49,7 @@ const WatchItHere: React.FC = () => {
 
   return (
     <>
-      <div className="px-4 md:px-20 pt-10 bg-black">
-        <h3 className="text-h4 md:text-h3 font-antonio font-semibold text-left mb-10">
-          <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
-            Season #1
-          </span>{" "}
-          was a huge success.
-        </h3>
-      </div>
+      <div className="px-4 md:px-20 pt-10 bg-black"></div>
       <div
         ref={sectionRef}
         className="px-0 grid grid-cols-1 md:grid-cols-2 sm:grid-cols-2 gap-6 rounded-xl md:px-6 pt-0 pb-[30px] bg-black"

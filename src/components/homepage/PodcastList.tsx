@@ -56,6 +56,12 @@ const PodcastList = () => {
           className="w-full mb-5 md:mb-0"
         />
       </div>
+      <h3 className="px-6 text-h4 md:text-h3 font-antonio font-semibold text-left mb-10">
+        <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
+          Season #1
+        </span>{" "}
+        was a huge success.
+      </h3>
       {podcasts.slice(0, visibleCount).map((podcast, i) => (
         <div key={i} className="grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
           <div className="flex-1 rounded-2xl overflow-hidden relative">
