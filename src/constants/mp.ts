@@ -54,12 +54,12 @@ export const mpLogos = [
   {
     src: blockchainmagazine,
     alt: blockchainmagazine,
-    url: "#",
+    url: "",
   },
   {
     src: blockchainreporter,
     alt: blockchainreporter,
-    url: "#",
+    url: "",
   },
   {
     src: blockhead,
@@ -104,7 +104,7 @@ export const mpLogos = [
   {
     src: coinpedia,
     alt: coinpedia,
-    url: "https://coinpasar.sg/",
+    url: "https://coinpedia.org/",
   },
   {
     src: coinwire,
@@ -129,7 +129,7 @@ export const mpLogos = [
   {
     src: cryptonews,
     alt: cryptonews,
-    url: "https://crypto.news/",
+    url: "https://cryptonews.com//",
   },
   {
     src: cryptopolitan,
@@ -149,7 +149,7 @@ export const mpLogos = [
   {
     src: disruptionbanking,
     alt: disruptionbanking,
-    url: "#",
+    url: "",
   },
   {
     src: dlnews,
@@ -179,7 +179,7 @@ export const mpLogos = [
   {
     src: santiment,
     alt: santiment,
-    url: "https://www.quranium.org/quantum-minds-podcast",
+    url: "",
   },
   {
     src: startupnews,
