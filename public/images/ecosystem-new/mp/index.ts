@@ -1,5 +1,6 @@
 export { default as bitcoin } from "./bitcoin.svg";
 export { default as bitcoininsider } from "./bitcoininsider.svg";
+export { default as bitget } from "./bitget.svg";
 export { default as bittwome } from "./bittwome.svg";
 export { default as blockchainmagazine } from "./blockchainmagazine.svg";
 export { default as blockchainreporter } from "./blockchainreporter.svg";

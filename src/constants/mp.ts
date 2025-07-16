@@ -1,6 +1,7 @@
 import {
   bitcoin,
   bitcoininsider,
+  bitget,
   bittwome,
   blockchainmagazine,
   blockchainreporter,
@@ -44,6 +45,11 @@ export const mpLogos = [
     src: bitcoininsider,
     alt: bitcoininsider,
     url: "https://www.bitcoininsider.org/",
+  },
+  {
+    src: bitget,
+    alt: bitget,
+    url: "https://bonus.bitget.com/Y7LM99",
   },
   {
     src: bittwome,
