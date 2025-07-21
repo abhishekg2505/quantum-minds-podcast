@@ -34,19 +34,29 @@ const AnchorCards = () => {
           <Link key={index} href={card.link} className="md:basis-[50%] overflow-hidden">
             <div className="group perspective">
               <div className="relative w-full transition-transform">
-                <div
-                  className="bg-[#0D031B] p-10 h-[262px] md:h-[485px] flex flex-col justify-end items-start text-left bg-cover bg-center-top transition-all duration-300 ease-in-out group-hover:scale-110"
-                  style={{ backgroundImage: `url(${card.media})` }}
-                >
-                  <div className="flex flex-row flex-wrap items-end justify-center md:justify-between w-full">
-                    <div className="md:basis-10/12">
-                      <h3 className="md:text-h3 font-antonio text-[24px] font-normal mt-5 text-center md:text-left">
-                        {card.title}
-                      </h3>
+                <div className="relative w-full bg-[#0D031B] p-10 h-[262px] md:h-[485px] flex flex-col justify-end items-start text-left overflow-hidden">
+                  <Image
+                    src={card.media}
+                    alt={card.title}
+                    fill
+                    className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+                  />
+                  <div className="absolute bottom-0 left-0 w-full p-10">
+                    <div className="flex flex-row flex-wrap items-center justify-between md:justify-between">
+                      <div className="">
+                        <h3 className="md:text-h4 font-antonio text-[24px] font-normal  text-center md:text-left">
+                          {card.title}
+                        </h3>
+                      </div>
+                      <span className="group text-center hidden md:block">
+                        <Image
+                          src="/images/know-your-host/arrow-right.svg"
+                          alt="Arrow Right"
+                          width={66}
+                          height={67}
+                        />
+                      </span>
                     </div>
-                    <span className="group text-center hidden md:block">
-                      <MoveRight className="ml-2 w-[64px] h-[64px] text-[#ffffff] group-hover:text-[#601dff] transition-all duration-400 group-hover:translate-x-1" />
-                    </span>
                   </div>
                 </div>
               </div>

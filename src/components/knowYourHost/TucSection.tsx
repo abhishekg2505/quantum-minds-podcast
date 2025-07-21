@@ -89,7 +89,7 @@ const TucSection = () => {
         <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 ">
           <div className="absolute top-0 right-0" ref={triangleRef}>
             <Image
-              src="/images/homepage/four-traingle.png"
+              src="/images/know-your-host/four-traingles.png"
               alt="four-traingle"
               width={207}
               height={202}
