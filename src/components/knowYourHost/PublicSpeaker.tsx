@@ -87,7 +87,7 @@ const PublicSpeaker = () => {
         ref={sectionRef}
         className="px-4 md:px-20 pt-[120px] overflow-hidden bg-[url('/images/know-your-host/public-speaker.webp')] bg-cover"
       >
-        <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 ">
+        <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 ">
           <div className="absolute top-0 left-0" ref={triangleRef}>
             <Image
               src="/images/homepage/two-traingles.png"
@@ -100,8 +100,8 @@ const PublicSpeaker = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 items-center md:text-left pt-[110px] pb-[125px]">
             {/* Left Side - Image (60%) */}
-            <div className="relative">
-              <h2 className="text-h4 text-left md:text-h2 font-antonio font-semibold">
+            <div className="relative order-2 md:order-1">
+              <h2 className="text-left text-h2 font-antonio font-normal">
                 <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent uppercase">
                   Public Speaker
                 </span>
@@ -130,13 +130,13 @@ const PublicSpeaker = () => {
             </div>
 
             {/* Right Side - Text (40%) */}
-            <div className="flex  mt-10 md:mt-0 relative w-full">
+            <div className="flex  mt-10 md:mt-0 relative w-full order-1 md:order-2">
               <Image
-                src="/images/know-your-host/tuc-logo.svg"
+                src="/images/know-your-host/ps-right.webp"
                 alt="TUC Logo"
-                width={278}
-                height={100}
-                className="mb-5 md:mb-0"
+                width={614}
+                height={464}
+                className="max-w-full mb-5 md:mb-0"
                 ref={cardsRef}
               />
             </div>

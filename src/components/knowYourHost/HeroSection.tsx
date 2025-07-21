@@ -127,7 +127,7 @@ export default function HeroSection() {
           />
         </div>
         <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-        <div className="relative pt-[350px] md:pt-24 w-full">
+        <div className="relative pt-[100px] md:pt-24 w-full">
           <div className="h-16 absolute inset-0  z-10" />
           <div className="relative container mx-auto px-4 md:px-20">
             <div className="grid grid-cols-1 md:grid-cols-[55%_45%] gap-0 md:gap-10 items-center md:text-left">
@@ -196,7 +196,7 @@ export default function HeroSection() {
                   alt="kapil-dhiman"
                   width={760}
                   height={640}
-                  className="w-full mb-5 md:mb-0"
+                  className="w-full"
                 />
               </div>
             </div>

@@ -97,22 +97,25 @@ const TucSection = () => {
               ref={cardsRef}
             />
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 items-center md:text-left pt-[110px] pb-[125px]">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 items-center text-center md:text-left pt-[110px] pb-[125px]">
             {/* Left Side - Image (60%) */}
-            <div className="flex  mt-10 md:mt-0 relative w-full">
+            <div className="flex  justify-center md:justify-start mt-10 md:mt-0 relative w-full">
               <Image
                 src="/images/know-your-host/tuc-logo.svg"
                 alt="TUC Logo"
                 width={278}
                 height={100}
-                className="mb-5 md:mb-0"
+                className="mb-5 md:mb-0 w-[222] h-[80px] md:w-[278px] md:h-[100px]"
                 ref={cardsRef}
               />
             </div>
 
             {/* Right Side - Text (40%) */}
             <div className="relative z-10">
-              <p ref={headingRef} className="text-p2 font-open-sans text-left mt-5 mb-5">
+              <p
+                ref={headingRef}
+                className="text-p2 font-open-sans text-center md:text-left mt-5 mb-5"
+              >
                 <strong>The Uncrackable Conversation</strong> is our monthly virtual roundtable
                 series
                 <strong> hosted by Kapil Dhiman,</strong> that brings together C-suite leaders,
