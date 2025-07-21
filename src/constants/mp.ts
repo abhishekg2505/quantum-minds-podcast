@@ -5,6 +5,7 @@ import {
   bittwome,
   blockchainmagazine,
   blockchainreporter,
+  blockchaintoday,
   blockhead,
   catenaa,
   cim,
@@ -14,9 +15,10 @@ import {
   coingape,
   coinpasar,
   coinpedia,
+  coinrank,
   coinwire,
   cryptobreakingnews,
-  cryptocoinshow,
+  cryptodashnews,
   cryptodotnews,
   cryptonews,
   cryptopolitan,
@@ -26,13 +28,12 @@ import {
   dlnews,
   droomdroom,
   forklog,
+  fxstreet,
+  klarda,
   koreaittimes,
+  newschain,
   ngglobalmedia,
   santiment,
-  startupnews,
-  thecoinrepublic,
-  thecryptonomist,
-  thejournalwire,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -60,12 +61,17 @@ export const mpLogos = [
   {
     src: blockchainmagazine,
     alt: blockchainmagazine,
-    url: "",
+    url: "https://blockchainmagazine.com/",
   },
   {
     src: blockchainreporter,
     alt: blockchainreporter,
-    url: "",
+    url: "https://blockchainreporter.net/",
+  },
+  {
+    src: blockchaintoday,
+    alt: blockchaintoday,
+    url: "https://www.blockchaintoday.co.kr/",
   },
   {
     src: blockhead,
@@ -113,6 +119,11 @@ export const mpLogos = [
     url: "https://coinpedia.org/",
   },
   {
+    src: coinrank,
+    alt: coinrank,
+    url: "https://www.coinrank.io/",
+  },
+  {
     src: coinwire,
     alt: coinwire,
     url: "https://coinwirez.com/",
@@ -123,9 +134,9 @@ export const mpLogos = [
     url: "https://www.cryptobreaking.com/",
   },
   {
-    src: cryptocoinshow,
-    alt: cryptocoinshow,
-    url: "https://cryptocoinshow.substack.com/subscribe",
+    src: cryptodashnews,
+    alt: cryptodashnews,
+    url: "#",
   },
   {
     src: cryptodotnews,
@@ -173,9 +184,24 @@ export const mpLogos = [
     url: "https://forklog.com.ua/",
   },
   {
+    src: fxstreet,
+    alt: fxstreet,
+    url: "",
+  },
+  {
+    src: klarda,
+    alt: klarda,
+    url: "",
+  },
+  {
     src: koreaittimes,
     alt: koreaittimes,
     url: "https://www.koreaittimes.com/",
+  },
+  {
+    src: newschain,
+    alt: newschain,
+    url: "",
   },
   {
     src: ngglobalmedia,
@@ -186,25 +212,5 @@ export const mpLogos = [
     src: santiment,
     alt: santiment,
     url: "",
-  },
-  {
-    src: startupnews,
-    alt: startupnews,
-    url: "https://startupnews.fyi/",
-  },
-  {
-    src: thecoinrepublic,
-    alt: thecoinrepublic,
-    url: "https://www.thecoinrepublic.com/",
-  },
-  {
-    src: thecryptonomist,
-    alt: thecryptonomist,
-    url: "https://en.cryptonomist.ch/",
-  },
-  {
-    src: thejournalwire,
-    alt: thejournalwire,
-    url: "https://journal-wire.com/",
   },
 ];

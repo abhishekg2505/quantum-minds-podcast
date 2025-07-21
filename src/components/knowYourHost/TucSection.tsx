@@ -122,7 +122,11 @@ const TucSection = () => {
                 developers, and enterprise innovators to unpack one of the most pressing challenges
                 of our time: staying secure in the era of quantum, AI and supercomputing.
               </p>
-              <Link href="#" target="_blank" className="inline-flex items-center justify-center">
+              <Link
+                href="https://lu.ma/jkdbyjbn"
+                target="_blank"
+                className="inline-flex items-center justify-center"
+              >
                 <span className="text-h4 font-antonio text-[#08C1F0]">WATCH NOW</span>
                 <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
               </Link>
