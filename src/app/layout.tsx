@@ -7,7 +7,7 @@ import Footer from "../components/common/Footer";
 import { siteMetadata } from "../constants/metadata";
 import quraniumPreview from "../../public/images/quraniumPreview.png";
 import Head from "next/head";
-import CustomCursor from "@/src/components/common/CustomCursor";
+// import CustomCursor from "@/src/components/common/CustomCursor";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
@@ -98,7 +98,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </Head>
       <body className="min-h-screen bg-slate-950 text-white-1 antialiased font-montserrat">
-        <CustomCursor />
+        {/* <CustomCursor /> */}
         {/* <Header /> */}
         {/* <SmoothScroll>
           {children}

@@ -4,7 +4,28 @@ import gsap from "gsap";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import Image from "next/image";
-
+const socialIcons = [
+  {
+    name: "X",
+    src: "/images/know-your-host/x.svg",
+    link: "#",
+  },
+  {
+    name: "LinkedIn",
+    src: "/images/know-your-host/linkedin.svg",
+    link: "#",
+  },
+  {
+    name: "Medium",
+    src: "/images/know-your-host/medium.svg",
+    link: "#",
+  },
+  {
+    name: "Instagram",
+    src: "/images/know-your-host/instagram.svg",
+    link: "#",
+  },
+];
 export default function HeroSection() {
   const containerRef = useRef(null);
 
@@ -106,105 +127,82 @@ export default function HeroSection() {
           />
         </div>
         <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-        <div className="relative pt-[289px] md:pt-24 w-full">
+        <div className="relative pt-[350px] md:pt-24 w-full">
           <div className="h-16 absolute inset-0  z-10" />
           <div className="relative container mx-auto px-4 md:px-20">
-            <div className="max-w-7xl mx-auto hidden sm:block">
-              <div className="grid grid-cols-1 md:grid-cols-[60%_40%] gap-0 md:gap-10 items-center md:text-left">
-                {/* Left Side - Image (60%) */}
-                <div className="">
-                  <h6 className="text-h5 font-antonio font-bold  mb-2">Meet your Host,</h6>
-                  <h1 className="text-h4 text-left md:text-h2 font-antonio font-semibold">
-                    <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
-                      KAPIL DHIMAN
-                    </span>
-                  </h1>
-                  <p className="text-p2 font-open-sans text-left mt-[10px] mb-[10px]">
-                    <strong>Kapil Dhiman</strong> is a globally recognized business leader and
-                    strategist with over a decade of experience across emerging technologies and
-                    entrepreneurship. As CEO and Co-founder of <strong>Quranium</strong>, he is
-                    building quantum-secure, decentralized infrastructure at the intersection of
-                    <strong> blockchain, cybersecurity, and AI</strong> to power the future of
-                    digital economies.
-                  </p>
-                  <p className="text-p2 font-open-sans text-left mb-[10px]">
-                    His career spans the full innovation spectrum, from advising
-                    multi-billion-dollar enterprises and regulators to backing more than{" "}
-                    <strong>35+ startups</strong> across strategy, product, and go-to-market.
-                    Formerly the <strong>Web3 Business Leader at PwC India,</strong> Kapil led major
-                    initiatives bridging legacy industries with decentralized tech. His last startup
-                    was named Metaverse Startup of the Year in 2023, and he is a{" "}
-                    <strong>founding member of the DavosWeb3 Roundtable.</strong>
-                  </p>
-                  <p className="text-p2 font-open-sans text-left mb-[10px]">
-                    Beyond tech, Kapil is deeply interested in human psychology and social behavior.
-                    He created the{" "}
-                    <Link href="https://trustperhuman.com/" target="blank" className="underline">
-                      <strong>&rsquo;Trust Per Human&rsquo; (TPH)</strong>
-                    </Link>{" "}
-                    framework to redefine how we measure trust in digital interactions. As an author
-                    and active writer, he shares reflections on life, mindset, and growth, blending
-                    systems thinking with soul for those pursuing bold visions in the world and
-                    within themselves.
-                  </p>
+            <div className="grid grid-cols-1 md:grid-cols-[55%_45%] gap-0 md:gap-10 items-center md:text-left">
+              {/* Left Side - Image (60%) */}
+              <div className="pb-[100px]">
+                <h6 className="text-h5 font-antonio font-bold  mb-2">About,</h6>
+                <h1 className="text-h4 text-left md:text-h2 font-antonio font-semibold">
+                  <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
+                    KAPIL DHIMAN
+                  </span>
+                </h1>
+                <p className="text-p2 font-open-sans text-left mt-[10px] mb-[10px]">
+                  <strong>Kapil Dhiman</strong> is a globally recognized business leader and
+                  strategist with over a decade of experience across emerging technologies and
+                  entrepreneurship. As CEO and Co-founder of <strong>Quranium</strong>, he is
+                  building quantum-secure, decentralized infrastructure at the intersection of
+                  <strong> blockchain, cybersecurity, and AI</strong> to power the future of digital
+                  economies.
+                </p>
+                <p className="text-p2 font-open-sans text-left mb-[10px]">
+                  His career spans the full innovation spectrum, from advising multi-billion-dollar
+                  enterprises and regulators to backing more than <strong>35+ startups</strong>{" "}
+                  across strategy, product, and go-to-market. Formerly the{" "}
+                  <strong>Web3 Business Leader at PwC India,</strong> Kapil led major initiatives
+                  bridging legacy industries with decentralized tech. His last startup was named
+                  Metaverse Startup of the Year in 2023, and he is a{" "}
+                  <strong>founding member of the DavosWeb3 Roundtable.</strong>
+                </p>
+                <p className="text-p2 font-open-sans text-left mb-[10px]">
+                  Beyond tech, Kapil is deeply interested in human psychology and social behavior.
+                  He created the{" "}
+                  <Link href="https://trustperhuman.com/" target="blank" className="underline">
+                    <strong>&rsquo;Trust Per Human&rsquo; (TPH)</strong>
+                  </Link>{" "}
+                  framework to redefine how we measure trust in digital interactions. As an author
+                  and active writer, he shares reflections on life, mindset, and growth, blending
+                  systems thinking with soul for those pursuing bold visions in the world and within
+                  themselves.
+                </p>
 
-                  {/* Inline Pill Box */}
-                  <div className="flex flex-col md:flex-row md:items-center items-start justify-center md:justify-start gap-4">
-                    <div className="">
-                      <div className="flex flex-col items-start gap-3 text-white">
-                        <div className="flex items-center gap-5 flex-wrap pr-5">
-                          <Link
-                            href="https://www.linkedin.com/in/kapil-dhiman-5a68b0138?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                            target="_blank"
-                          >
-                            <span className="text-h4 font-antonio text-[#08C1F0]">
-                              {" "}
-                              ABOUT KAPIL
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="flex gap-4 bg-black">
+                  {socialIcons.map((icon, idx) => (
+                    <a
+                      key={idx}
+                      href={icon.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center rounded-full hover:scale-110 transition-transform"
+                    >
+                      <Image
+                        src={icon.src}
+                        alt={icon.name}
+                        width={37}
+                        height={37}
+                        className="object-contain"
+                      />
+                    </a>
+                  ))}
                 </div>
+              </div>
 
-                {/* Right Side - Text (40%) */}
-                <div className="relative z-10">
-                  <Image
-                    src="/images/know-your-host/kyh-banner.webp"
-                    alt="kapil-dhiman"
-                    width={640}
-                    height={640}
-                    className="w-full mb-5 md:mb-0"
-                  />
-                </div>
+              {/* Right Side - Text (40%) */}
+              <div className="flex items-end h-full">
+                <Image
+                  src="/images/know-your-host/kyh-banner.webp"
+                  alt="kapil-dhiman"
+                  width={760}
+                  height={640}
+                  className="w-full mb-5 md:mb-0"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="max-w-7xl mx-auto sm:hidden block mt-[30px]">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
-          <div className="max-w-[695px] inline-flex flex-col justify-start items-start">
-            <h1 className="self-stretch  justify-start bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent text-h2 font-normal font-anton hero-title">
-              QUANTUM MINDS{" "}
-            </h1>
-            <div className="inline-flex justify-start items-center gap-3.5">
-              <div className="justify-start bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent text-h2 font-normal font-anton hero-title2">
-                PODCAST
-              </div>
-              <div className="pt-2 inline-flex flex-col justify-center items-start">
-                <div className="justify-start text-white text-p1 font-normal font-antonio">
-                  with
-                </div>
-                <div className="justify-start text-white text-p1 font-normal font-antonio">
-                  KAPIL DHIMAN.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </>
   );
 }

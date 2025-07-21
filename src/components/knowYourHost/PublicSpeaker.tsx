@@ -8,7 +8,7 @@ import { ChevronRight } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const TucSection = () => {
+const PublicSpeaker = () => {
   const sectionRef = useRef(null);
   const mainTitleRef = useRef(null);
   const lineRef = useRef(null);
@@ -87,10 +87,10 @@ const TucSection = () => {
         className="px-4 md:px-20 pt-[120px] overflow-hidden bg-[url('/images/know-your-host/tucbg.webp')] bg-cover"
       >
         <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 ">
-          <div className="absolute top-0 right-0" ref={triangleRef}>
+          <div className="absolute top-0 left-0" ref={triangleRef}>
             <Image
-              src="/images/homepage/four-traingle.png"
-              alt="four-traingle"
+              src="/images/homepage/two-traingles.png"
+              alt="two-traingle"
               width={207}
               height={202}
               className="w-full mb-5 md:mb-0"
@@ -99,6 +99,36 @@ const TucSection = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-10 items-center md:text-left pt-[110px] pb-[125px]">
             {/* Left Side - Image (60%) */}
+            <div className="relative">
+              <h2 className="text-h4 text-left md:text-h2 font-antonio font-semibold">
+                <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent uppercase">
+                  Public Speaker
+                </span>
+              </h2>
+              <p
+                ref={headingRef}
+                className="text-p2 font-open-sans font-normal text-left mt-5 mb-5"
+              >
+                <strong>Kapil Dhiman</strong> is a global thought leader in startup ecosystem,
+                quantum security, and Web3 innovation. As the{" "}
+                <strong>Co-founder of Quranium</strong> and the mind behind concepts like DeQUIP and
+                Earth 2.0, he brings powerful insights into the future of technology and digital
+                economies. With over a decade of experience, Kapil is a dynamic speaker who inspires
+                audiences with clarity, vision, and actionable ideas. He frequently speaks on topics
+                such as quantum-secure infrastructure, the evolution of Web3 and global economies,
+                Earth 2.0, and leadership in deep tech.
+              </p>
+              <Link
+                href="mailto:business@quranium.org"
+                target="_blank"
+                className="inline-flex items-center justify-center"
+              >
+                <span className="text-h4 font-antonio text-[#08C1F0]">SPEAKER ENQUIRIES</span>
+                <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
+              </Link>
+            </div>
+
+            {/* Right Side - Text (40%) */}
             <div className="flex  mt-10 md:mt-0 relative w-full">
               <Image
                 src="/images/know-your-host/tuc-logo.svg"
@@ -109,21 +139,6 @@ const TucSection = () => {
                 ref={cardsRef}
               />
             </div>
-
-            {/* Right Side - Text (40%) */}
-            <div className="relative z-10">
-              <p ref={headingRef} className="text-p2 font-open-sans text-left mt-5 mb-5">
-                <strong>The Uncrackable Conversation</strong> is our monthly virtual roundtable
-                series
-                <strong> hosted by Kapil Dhiman,</strong> that brings together C-suite leaders,
-                developers, and enterprise innovators to unpack one of the most pressing challenges
-                of our time: staying secure in the era of quantum, AI and supercomputing.
-              </p>
-              <Link href="#" target="_blank" className="inline-flex items-center justify-center">
-                <span className="text-h4 font-antonio text-[#08C1F0]">WATCH NOW</span>
-                <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -132,4 +147,4 @@ const TucSection = () => {
   );
 };
 
-export default TucSection;
+export default PublicSpeaker;

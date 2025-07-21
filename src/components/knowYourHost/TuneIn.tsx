@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
 import RoadshowCarousel from "./RoadshowV2/RoadshowCarousel";
 import { ChevronRight } from "lucide-react";
+import MpSection from "./MpSection";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -107,6 +108,7 @@ const TuneIn = () => {
               </Link>
             </div>
             <RoadshowCarousel />
+            <MpSection />
           </div>
         </div>
       </div>

@@ -8,7 +8,11 @@ import RoadshowCarousel from "./RoadshowV2/RoadshowCarousel";
 import { ChevronRight } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
-
+const techList = [
+  { name: "Quantum", icon: "/images/know-your-host/quantum.svg" },
+  { name: "Blockchain", icon: "/images/know-your-host/blockchain.svg" },
+  { name: "AI", icon: "/images/know-your-host/ai.svg" },
+];
 const ConvergenceLayer = () => {
   const sectionRef = useRef(null);
   const mainTitleRef = useRef(null);
@@ -96,6 +100,20 @@ const ConvergenceLayer = () => {
             <h3 className="text-[36px] font-antonio font-bold text-center">
               The Convergence Layer
             </h3>
+            <div className="flex items-center gap-6  pb-2 w-fit mt-[15px]">
+              {techList.map((tech, idx) => (
+                <div key={idx} className="flex items-center gap-2 text-white">
+                  <Image
+                    src={tech.icon}
+                    alt={tech.name}
+                    width={24}
+                    height={24}
+                    className="object-contain"
+                  />
+                  <span className="text-p1 font-medium">{tech.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
           <div className="relative text-left">
             <div className="flex flex-col items-start justify-start mt-10 md:mt-0 relative max-w-[894px] mx-auto">
