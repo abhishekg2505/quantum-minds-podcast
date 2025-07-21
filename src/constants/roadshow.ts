@@ -1,4 +1,4 @@
-export const roadshowMarquee = [
+export const roadshowMarqueeFirstRow = [
   {
     src: "/images/know-your-host/roadshow/rs1.webp",
   },
@@ -17,6 +17,9 @@ export const roadshowMarquee = [
   {
     src: "/images/know-your-host/roadshow/rs6.webp",
   },
+];
+
+export const roadshowMarqueeSecondRow = [
   {
     src: "/images/know-your-host/roadshow/rs7.webp",
   },
@@ -25,5 +28,14 @@ export const roadshowMarquee = [
   },
   {
     src: "/images/know-your-host/roadshow/rs9.webp",
+  },
+  {
+    src: "/images/know-your-host/roadshow/rs10.webp",
+  },
+  {
+    src: "/images/know-your-host/roadshow/rs11.webp",
+  },
+  {
+    src: "/images/know-your-host/roadshow/rs12.webp",
   },
 ];

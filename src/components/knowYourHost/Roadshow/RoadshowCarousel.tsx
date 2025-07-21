@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Carousel from "@/src/components/common/Carousel";
-import { roadshowMarquee } from "@/src/constants/roadshow";
+import { roadshowMarqueeFirstRow, roadshowMarqueeSecondRow } from "@/src/constants/roadshow";
 const RoadshowCarousel = () => {
   return (
     <div className="space-y-8 py-10">
       <Carousel direction="left" speed={100}>
-        {[...roadshowMarquee, ...roadshowMarquee].map((img, i) => (
+        {[...roadshowMarqueeFirstRow, ...roadshowMarqueeFirstRow].map((img, i) => (
           <div
             key={i}
             className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"
@@ -21,7 +21,7 @@ const RoadshowCarousel = () => {
         ))}
       </Carousel>
       <Carousel direction="right" speed={100}>
-        {[...roadshowMarquee, ...roadshowMarquee].map((img, i) => (
+        {[...roadshowMarqueeSecondRow, ...roadshowMarqueeSecondRow].map((img, i) => (
           <div
             key={i}
             className="group relative flex-shrink-0 mx-2 w-[342px] h-[183px] rounded-[20px] overflow-hidden"

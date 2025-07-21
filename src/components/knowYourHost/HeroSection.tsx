@@ -18,12 +18,12 @@ const socialIcons = [
   {
     name: "Medium",
     src: "/images/know-your-host/medium.svg",
-    link: "#",
+    link: "https://medium.com/@kapil_dhiman",
   },
   {
     name: "Instagram",
     src: "/images/know-your-host/instagram.svg",
-    link: "#",
+    link: "https://www.instagram.com/qubitkapil/",
   },
 ];
 export default function HeroSection() {
@@ -172,7 +172,7 @@ export default function HeroSection() {
 
                 <div className="flex gap-4 bg-black">
                   {socialIcons.map((icon, idx) => (
-                    <a
+                    <Link
                       key={idx}
                       href={icon.link}
                       target="_blank"
@@ -186,7 +186,7 @@ export default function HeroSection() {
                         height={37}
                         className="object-contain"
                       />
-                    </a>
+                    </Link>
                   ))}
                 </div>
               </div>
