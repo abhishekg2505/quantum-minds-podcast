@@ -106,7 +106,11 @@ const TuneIn = () => {
                 think.It&rsquo;s not about trends, but truth. Conversations with the emerging minds
                 driving tomorrow&rsquo;s technology, commerce, and culture.
               </p>
-              <Link href="#" target="_blank" className="inline-flex items-center justify-center">
+              <Link
+                href="https://www.youtube.com/@QuantumMindsPodcast"
+                target="_blank"
+                className="inline-flex items-center justify-center"
+              >
                 <span className="text-h4 font-antonio text-[#08C1F0]"> TUNE IN</span>
                 <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
               </Link>

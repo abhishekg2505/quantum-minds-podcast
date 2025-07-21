@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -130,8 +131,10 @@ const AboutKapil = () => {
                     <Link
                       href="https://www.linkedin.com/in/kapil-dhiman-5a68b0138?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                       target="_blank"
+                      className="inline-flex items-center justify-center"
                     >
                       <span className="text-h4 font-antonio text-[#08C1F0]"> ABOUT KAPIL</span>
+                      <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
                     </Link>
                   </div>
                 </div>

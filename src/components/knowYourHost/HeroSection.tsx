@@ -8,12 +8,12 @@ const socialIcons = [
   {
     name: "X",
     src: "/images/know-your-host/x.svg",
-    link: "#",
+    link: "https://x.com/iamkapildhiman?t=8DoADhJlGUkj5VD3qPPQmQ&s=31",
   },
   {
     name: "LinkedIn",
     src: "/images/know-your-host/linkedin.svg",
-    link: "#",
+    link: "https://www.linkedin.com/in/kapil-dhiman-5a68b0138?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Medium",
