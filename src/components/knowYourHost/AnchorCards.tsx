@@ -31,11 +31,11 @@ const AnchorCards = () => {
     <section className="pb-16">
       <div className="flex flex-col md:flex-row flex-wrap">
         {anchorCards.map((card, index) => (
-          <Link key={index} href={card.link} className="md:basis-[50%]">
+          <Link key={index} href={card.link} className="md:basis-[50%] overflow-hidden">
             <div className="group perspective">
               <div className="relative w-full transition-transform">
                 <div
-                  className="bg-[#0D031B] p-10 h-[262px] md:h-[485px] flex flex-col justify-end items-start text-left bg-cover bg-center-top transition-colors duration-300 ease-in-out"
+                  className="bg-[#0D031B] p-10 h-[262px] md:h-[485px] flex flex-col justify-end items-start text-left bg-cover bg-center-top transition-all duration-300 ease-in-out group-hover:scale-110"
                   style={{ backgroundImage: `url(${card.media})` }}
                 >
                   <div className="flex flex-row flex-wrap items-end justify-center md:justify-between w-full">

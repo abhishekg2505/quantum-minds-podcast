@@ -16,6 +16,9 @@ const PublicSpeaker = () => {
   const cardsRef = useRef(null);
   const headingRef = useRef(null);
   const triangleRef = useRef(null);
+  const columnRef = useRef(null);
+  const imgLargeRef = useRef(null);
+  const imgSmallRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -75,6 +78,32 @@ const PublicSpeaker = () => {
         yoyo: true,
         ease: "power1.inOut",
       });
+
+      gsap.to(imgLargeRef.current, {
+        y: -150,
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top bottom",
+          end: "bottom top",
+          scrub: 1,
+        },
+        ease: "none",
+      });
+
+      gsap.fromTo(
+        imgSmallRef.current,
+        { y: -90 }, // Start above
+        {
+          y: 150, // End below
+          scrollTrigger: {
+            trigger: sectionRef.current,
+            start: "top bottom",
+            end: "bottom top",
+            scrub: 1,
+          },
+          ease: "none",
+        }
+      );
     }, sectionRef);
 
     return () => ctx.revert();
@@ -108,7 +137,7 @@ const PublicSpeaker = () => {
               </h2>
               <p
                 ref={headingRef}
-                className="text-p2 font-open-sans font-normal text-left mt-5 mb-5"
+                className="text-p4 md:text-p2 font-open-sans font-normal text-left mt-5 mb-5"
               >
                 <strong>Kapil Dhiman</strong> is a global thought leader in startup ecosystem,
                 quantum security, and Web3 innovation. As the{" "}
@@ -130,15 +159,26 @@ const PublicSpeaker = () => {
             </div>
 
             {/* Right Side - Text (40%) */}
-            <div className="flex  mt-10 md:mt-0 relative w-full order-1 md:order-2">
+            <div ref={columnRef} className="flex  mt-10 md:mt-0 relative w-full order-1 md:order-2">
               <Image
-                src="/images/know-your-host/ps-right.webp"
-                alt="TUC Logo"
+                ref={imgLargeRef}
+                src="/images/know-your-host/ps-right-large.webp"
+                alt="PS Right Large"
                 width={614}
                 height={464}
-                className="max-w-full mb-5 md:mb-0"
-                ref={cardsRef}
+                className="max-w-full mb-5 md:mb-0 imglarge"
               />
+
+              <div className="absolute -top-[15px] md:-top-[90px] -right-[15px] md:-right-[53px] will-change-transform">
+                <Image
+                  ref={imgSmallRef}
+                  src="/images/know-your-host/ps-right-small.webp"
+                  alt="PS Right Small"
+                  width={289}
+                  height={212}
+                  className="max-w-full mb-5 md:mb-0 imgsmall"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -85,10 +85,10 @@ const ConvergenceLayer = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="bg-black px-4 md:px-20 pb-[131px]">
+    <div ref={sectionRef} id="founder" className="bg-black px-4 md:px-20 pb-[131px]">
       <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black">
         <div className="grid grid-cols-1 md:grid-cols-[30%_60%] gap-0 md:gap-10 justify-between items-center text-center md:text-left">
-          <div>
+          <div className="flex flex-col justify-center">
             <Image
               ref={mainTitleRef}
               src="/images/know-your-host/convergence-layer.webp"
@@ -117,7 +117,7 @@ const ConvergenceLayer = () => {
           </div>
           <div className="relative text-left">
             <div className="flex flex-col items-start justify-start mt-10 md:mt-0 relative max-w-[894px] mx-auto">
-              <p ref={headingRef} className="text-p2 font-open-sans text-left mt-5 mb-5">
+              <p ref={headingRef} className="text-p4 md:text-p2 font-open-sans text-left mt-5 mb-5">
                 Kapil Dhiman is <strong>CEO & Co-founder</strong> of Quranium. <br />
                 Founded in early 2024 by Web3 visionaries, Quranium is the world&rsquo;s first
                 Convergence Layer; where <strong>Quantum, Blockchain, and AI unite.</strong>
@@ -125,7 +125,11 @@ const ConvergenceLayer = () => {
                 As a decentralized, Quantum-secure Layer 1, Quranium enables the shift from siloed
                 technologies to truly interoperable, autonomous systems.
               </p>
-              <Link href="#" target="_blank" className="inline-flex items-center justify-center">
+              <Link
+                href="https://www.quranium.org"
+                target="_blank"
+                className="inline-flex items-center justify-center"
+              >
                 <span className="text-h4 font-antonio text-[#08C1F0]"> KNOW MORE</span>
                 <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0]" />
               </Link>

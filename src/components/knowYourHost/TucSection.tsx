@@ -114,7 +114,7 @@ const TucSection = () => {
             <div className="relative z-10">
               <p
                 ref={headingRef}
-                className="text-p2 font-open-sans text-center md:text-left mt-5 mb-5"
+                className="text-p4 md:text-p2 font-open-sans text-center md:text-left mt-5 mb-5"
               >
                 <strong>The Uncrackable Conversation</strong> is our monthly virtual roundtable
                 series

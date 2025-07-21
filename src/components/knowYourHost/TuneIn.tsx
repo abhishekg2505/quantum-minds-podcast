@@ -100,7 +100,10 @@ const TuneIn = () => {
                 priority
               />
 
-              <p ref={headingRef} className="text-p2 font-open-sans text-center mt-5 mb-5">
+              <p
+                ref={headingRef}
+                className="text-p4 md:text-p2 font-open-sans text-center mt-5 mb-5"
+              >
                 Hosted by <strong>Kapil Dhiman</strong>, this global podcast goes beyond headlines
                 to explore the ideas and breakthroughs redefining how we live, work, and
                 think.It&rsquo;s not about trends, but truth. Conversations with the emerging minds

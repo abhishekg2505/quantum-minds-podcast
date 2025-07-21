@@ -116,30 +116,32 @@ export default function HeroSection() {
 
   return (
     <>
-      <section ref={containerRef} id="founder" className="relative w-full">
-        <div className="absolute left-0 top-0 px-4 md:px-20 pt-[30px]">
-          <Image
-            src="/logo.svg"
-            alt="four-traingle"
-            width={128}
-            height={42}
-            className="w-full mb-5 md:mb-0"
-          />
+      <section ref={containerRef} className="relative w-full">
+        <div className="absolute left-0 top-0 px-4 md:px-20 pt-[30px] z-10">
+          <Link href="/" className="">
+            <Image
+              src="/logo.svg"
+              alt="QMP logo"
+              width={128}
+              height={42}
+              className="w-full mb-5 md:mb-0"
+            />
+          </Link>
         </div>
         <div className="absolute inset-0 bg-black z-20 hero-overlay" />
-        <div className="relative pt-[100px] md:pt-24 w-full">
+        <div className="relative pt-[100px] md:pt-[120px] w-full">
           <div className="h-16 absolute inset-0  z-10" />
           <div className="relative container mx-auto px-4 md:px-20">
             <div className="grid grid-cols-1 md:grid-cols-[55%_45%] gap-0 md:gap-10 items-center md:text-left">
               {/* Left Side - Image (60%) */}
               <div className="pb-[100px]">
-                <h6 className="text-h5 font-antonio font-bold  mb-2">About,</h6>
+                <h6 className="text-h5 font-antonio font-bold">About,</h6>
                 <h1 className="text-h4 text-left md:text-h2 font-antonio font-semibold">
                   <span className="bg-gradient-to-r from-sky-500 to-purple-500 bg-clip-text text-transparent">
                     KAPIL DHIMAN
                   </span>
                 </h1>
-                <p className="text-p2 font-open-sans text-left mt-[10px] mb-[10px]">
+                <p className="text-p4 md:text-p2 font-open-sans text-left mt-[10px] mb-[10px]">
                   <strong>Kapil Dhiman</strong> is a globally recognized business leader and
                   strategist with over a decade of experience across emerging technologies and
                   entrepreneurship. As CEO and Co-founder of <strong>Quranium</strong>, he is
