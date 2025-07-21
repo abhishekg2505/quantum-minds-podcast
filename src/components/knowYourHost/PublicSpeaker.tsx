@@ -82,9 +82,9 @@ const PublicSpeaker = () => {
   return (
     <>
       <div
+        id="public-speaker"
         ref={sectionRef}
-        id="about-host"
-        className="px-4 md:px-20 pt-[120px] overflow-hidden bg-[url('/images/know-your-host/tucbg.webp')] bg-cover"
+        className="px-4 md:px-20 pt-[120px] overflow-hidden bg-[url('/images/know-your-host/public-speaker.webp')] bg-cover"
       >
         <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 ">
           <div className="absolute top-0 left-0" ref={triangleRef}>
@@ -142,7 +142,6 @@ const PublicSpeaker = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-6 bg-gradient-to-r from-sky-500 to-purple-500"></div>
     </>
   );
 };

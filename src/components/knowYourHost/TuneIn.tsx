@@ -82,7 +82,11 @@ const TuneIn = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="bg-black px-4 md:px-20">
+    <div
+      ref={sectionRef}
+      id="quantum-minds-podcast"
+      className="scroll-mt-24 bg-black px-4 md:px-20"
+    >
       <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-0 md:gap-10 items-center text-center md:text-left">
           <div className="relative z-10">

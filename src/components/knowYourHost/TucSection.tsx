@@ -83,7 +83,7 @@ const TucSection = () => {
     <>
       <div
         ref={sectionRef}
-        id="about-host"
+        id="the-uncrackable-conversation"
         className="px-4 md:px-20 pt-[120px] overflow-hidden bg-[url('/images/know-your-host/tucbg.webp')] bg-cover"
       >
         <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:pb-0 md:pt-10 px-4 md:px-10 ">

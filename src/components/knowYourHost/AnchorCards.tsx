@@ -6,17 +6,17 @@ import { MoveRight } from "lucide-react";
 const anchorCards = [
   {
     title: "CEO & Co-founder, Quranium",
-    link: "#builders",
+    link: "#founder",
     media: "/images/know-your-host/founder.webp",
   },
   {
     title: "Host, Quantum Minds Podcast",
-    link: "#ambassadors",
+    link: "#quantum-minds-podcast",
     media: "/images/know-your-host/qmphost.webp",
   },
   {
     title: "Host, The Uncrackable Conversation",
-    link: "#strategic-partners",
+    link: "#the-uncrackable-conversation",
     media: "/images/know-your-host/tuchost.webp",
   },
   {

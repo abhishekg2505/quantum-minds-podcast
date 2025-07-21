@@ -116,7 +116,7 @@ export default function HeroSection() {
 
   return (
     <>
-      <section ref={containerRef} className="relative w-full">
+      <section ref={containerRef} id="founder" className="relative w-full">
         <div className="absolute left-0 top-0 px-4 md:px-20 pt-[30px]">
           <Image
             src="/logo.svg"
