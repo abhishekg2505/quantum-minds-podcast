@@ -149,7 +149,7 @@ export default function HeroSection() {
                   <strong> blockchain, cybersecurity, and AI</strong> to power the future of digital
                   economies.
                 </p>
-                <p className="text-p2 font-open-sans text-left mb-[10px]">
+                <p className="text-p4 md:text-p2 font-open-sans text-left mb-[10px]">
                   His career spans the full innovation spectrum, from advising multi-billion-dollar
                   enterprises and regulators to backing more than <strong>35+ startups</strong>{" "}
                   across strategy, product, and go-to-market. Formerly the{" "}
@@ -158,7 +158,7 @@ export default function HeroSection() {
                   Metaverse Startup of the Year in 2023, and he is a{" "}
                   <strong>founding member of the DavosWeb3 Roundtable.</strong>
                 </p>
-                <p className="text-p2 font-open-sans text-left mb-[10px]">
+                <p className="text-p4 md:text-p2 font-open-sans text-left mb-[10px]">
                   Beyond tech, Kapil is deeply interested in human psychology and social behavior.
                   He created the{" "}
                   <Link href="https://trustperhuman.com/" target="blank" className="underline">
