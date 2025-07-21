@@ -5,6 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import RoadshowCarousel from "./Roadshow/RoadshowCarousel";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -141,6 +142,9 @@ const PublicSpeaker = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="relative pt-[40px] pb-[80px]">
+        <RoadshowCarousel />
       </div>
     </>
   );
