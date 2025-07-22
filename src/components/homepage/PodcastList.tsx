@@ -63,14 +63,14 @@ const PodcastList = () => {
         was a huge success.
       </h3>
       {podcasts.slice(0, visibleCount).map((podcast, i) => (
-        <div key={i} className="grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
-          <div className="flex-1 rounded-2xl overflow-hidden relative">
+        <div key={i} className="group grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
+          <div className="flex-1 rounded-2xl relative overflow-hidden">
             <Image
               src={podcast.attributes.cover.data.attributes.url}
               alt={podcast.attributes.title}
               width={800}
               height={500}
-              className="w-full h-full object-cover"
+              className="w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
             />
           </div>
 
