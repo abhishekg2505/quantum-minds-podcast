@@ -91,9 +91,8 @@ const TucSection = () => {
             <Image
               src="/images/know-your-host/four-traingles.png"
               alt="four-traingle"
-              width={207}
-              height={202}
-              className="w-full mb-5 md:mb-0"
+              width={90}
+              height={90}
               ref={cardsRef}
             />
           </div>
