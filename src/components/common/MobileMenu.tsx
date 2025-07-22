@@ -22,20 +22,20 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="lg:hidden">
+    <div className="relative">
       <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
         <SheetTrigger asChild>
           {isSheetOpen ? (
-            <X className="h-10 w-10 stroke-2 stroke-violet-1" />
+            <X className="h-10 w-10 stroke-2 stroke-[#ffffff] cursor-pointer" />
           ) : (
-            <Menu className="h-10 w-10 stroke-2 stroke-violet-1" />
+            <Menu className="h-10 w-10 stroke-2 stroke-[#ffffff] cursor-pointer" />
           )}
         </SheetTrigger>
         <SheetContent
-          side="bottom"
-          className="h-[calc(100dvh-82px)] bg-background border-t-0 outline-none focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-transparent w-full !max-w-none"
+          side="right"
+          className="w-full md:w-[30.5%] h-screen bg-background focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-transparent !max-w-none"
         >
-          <div className="pt-[60px]">
+          <div className="mt-[100px]">
             <nav>
               {navLinks.map((item, idx) => (
                 <div key={item.itemName} className="mb-4">
@@ -45,16 +45,18 @@ const MobileMenu = () => {
                   >
                     <Link
                       href={item.link || "#"}
-                      className="text-lg font-medium"
+                      className=""
                       target={item.link?.startsWith("http") ? "_blank" : "_self"}
                       rel={item.link?.startsWith("http") ? "noopener noreferrer" : ""}
                       onClick={() => item.link && setIsSheetOpen(false)}
                     >
-                      <SheetTitle className="text-white-1 font-normal">{item.itemName}</SheetTitle>
+                      <SheetTitle className="text-white-1 font-normal font-antonio text-h3 uppercase">
+                        {item.itemName}
+                      </SheetTitle>
                     </Link>
-                    {item.subMenu && <ChevronDown className="ml-2" />}
+                    {/* {item.subMenu && <ChevronDown className="ml-2" />} */}
                   </div>
-                  {openSubMenuIndex === idx && item.subMenu && (
+                  {/* {openSubMenuIndex === idx && item.subMenu && (
                     <div className="pl-4 mt-2">
                       {item.subMenu.map((subItem, subIdx) => (
                         <Link
@@ -69,16 +71,18 @@ const MobileMenu = () => {
                         </Link>
                       ))}
                     </div>
-                  )}
+                  )} */}
                 </div>
               ))}
               <div className="mb-4">
                 <Link
-                  href="/contact-us"
-                  className="text-lg font-medium"
+                  href="mailto:business@quranium.org"
+                  className=""
                   onClick={() => setIsSheetOpen(false)}
                 >
-                  <SheetTitle className="text-white-1 font-normal">Contact</SheetTitle>
+                  <SheetTitle className="text-white-1 text-h3 font-antonio uppercase font-normal">
+                    Contact
+                  </SheetTitle>
                 </Link>
               </div>
             </nav>

@@ -33,3 +33,8 @@ export { default as koreaittimes } from "./koreaittimes.svg";
 export { default as newschain } from "./newschain.svg";
 export { default as ngglobalmedia } from "./ngglobalmedia.svg";
 export { default as santiment } from "./santiment.svg";
+export { default as startupnews } from "./startupnews.svg";
+export { default as theblockpedia } from "./theblockpedia.svg";
+export { default as thecoinrepublic } from "./thecoinrepublic.svg";
+export { default as thecryptonomist } from "./thecryptonomist.svg";
+export { default as thejournalwire } from "./thejournalwire.svg";

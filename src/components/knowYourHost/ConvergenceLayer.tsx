@@ -88,7 +88,7 @@ const ConvergenceLayer = () => {
     <div ref={sectionRef} id="founder" className="bg-black px-4 md:px-20 pb-[131px]">
       <div className="relative max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black">
         <div className="grid grid-cols-1 md:grid-cols-[30%_60%] gap-0 md:gap-10 justify-between items-center text-center md:text-left">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center items-center">
             <Image
               ref={mainTitleRef}
               src="/images/know-your-host/convergence-layer.webp"

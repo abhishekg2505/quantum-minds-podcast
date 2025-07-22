@@ -74,7 +74,10 @@ export default function Header() {
   const handleSubMenuClick = () => setOpenDropdownIndex(null);
 
   return (
-    <header ref={headerRef} className="fixed z-[60] top-5 left-0 right-0 tracking-tightest">
+    <header
+      ref={headerRef}
+      className="fixed z-[60] top-0 left-0 right-0 tracking-tightest bg-[linear-gradient(180deg,rgba(0,0,0,0.6)_0%,rgba(0,0,0,0)_100%)] overflow-hidden"
+    >
       <div className="relative px-4 md:px-10 lg:px-10 xl:px-20">
         <div className="px-5 xl:px-10 py-2.5 md:py-5 max-w-[1180px] mx-auto flex items-center justify-between rounded-[20px] ">
           <div ref={logoRef}>
@@ -152,9 +155,9 @@ export default function Header() {
           </div> */}
 
           {/* Mobile Nav */}
-          {/* <div className="lg:hidden1">
+          <div className="lg:hidden1">
             <MobileMenu />
-          </div> */}
+          </div>
         </div>
       </div>
     </header>

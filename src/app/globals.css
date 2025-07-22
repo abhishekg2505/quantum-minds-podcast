@@ -156,3 +156,6 @@ button:hover svg {
   transition-timing-function: linear !important;
   display: flex;
 }
+body {
+  pointer-events: auto !important;
+}

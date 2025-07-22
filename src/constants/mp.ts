@@ -34,6 +34,11 @@ import {
   newschain,
   ngglobalmedia,
   santiment,
+  startupnews,
+  theblockpedia,
+  thecoinrepublic,
+  thecryptonomist,
+  thejournalwire,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -136,7 +141,7 @@ export const mpLogos = [
   {
     src: cryptodashnews,
     alt: cryptodashnews,
-    url: "#",
+    url: "https://cryptonews.net/",
   },
   {
     src: cryptodotnews,
@@ -166,7 +171,7 @@ export const mpLogos = [
   {
     src: disruptionbanking,
     alt: disruptionbanking,
-    url: "",
+    url: "https://www.disruptionbanking.com/",
   },
   {
     src: dlnews,
@@ -186,12 +191,12 @@ export const mpLogos = [
   {
     src: fxstreet,
     alt: fxstreet,
-    url: "",
+    url: "https://www.fxstreet.com/",
   },
   {
     src: klarda,
     alt: klarda,
-    url: "",
+    url: "https://klarda.com/en",
   },
   {
     src: koreaittimes,
@@ -201,7 +206,7 @@ export const mpLogos = [
   {
     src: newschain,
     alt: newschain,
-    url: "",
+    url: "https://newzchain.com/",
   },
   {
     src: ngglobalmedia,
@@ -211,6 +216,31 @@ export const mpLogos = [
   {
     src: santiment,
     alt: santiment,
-    url: "",
+    url: "https://t.co/hxhgitN4Z4",
+  },
+  {
+    src: startupnews,
+    alt: startupnews,
+    url: "https://startupnews.fyi/",
+  },
+  {
+    src: theblockpedia,
+    alt: theblockpedia,
+    url: "https://theblockopedia.com/",
+  },
+  {
+    src: thecoinrepublic,
+    alt: thecoinrepublic,
+    url: "https://www.thecoinrepublic.com/",
+  },
+  {
+    src: thecryptonomist,
+    alt: thecryptonomist,
+    url: "https://en.cryptonomist.ch/",
+  },
+  {
+    src: thejournalwire,
+    alt: thejournalwire,
+    url: "https://journal-wire.com/",
   },
 ];
