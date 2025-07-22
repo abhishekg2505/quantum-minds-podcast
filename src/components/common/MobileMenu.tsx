@@ -50,7 +50,7 @@ const MobileMenu = () => {
                       rel={item.link?.startsWith("http") ? "noopener noreferrer" : ""}
                       onClick={() => item.link && setIsSheetOpen(false)}
                     >
-                      <SheetTitle className="text-white-1 font-normal font-antonio text-h3 uppercase">
+                      <SheetTitle className="text-white-1 font-normal font-antonio text-h3 uppercase hover:bg-gradient-to-r from-sky-500 to-purple-500 hover:bg-clip-text hover:text-transparent">
                         {item.itemName}
                       </SheetTitle>
                     </Link>
@@ -80,7 +80,7 @@ const MobileMenu = () => {
                   className=""
                   onClick={() => setIsSheetOpen(false)}
                 >
-                  <SheetTitle className="text-white-1 text-h3 font-antonio uppercase font-normal">
+                  <SheetTitle className="text-white-1 text-h3 font-antonio uppercase font-normal hover:bg-gradient-to-r from-sky-500 to-purple-500 hover:bg-clip-text hover:text-transparent">
                     Contact
                   </SheetTitle>
                 </Link>
