@@ -77,7 +77,7 @@ const ReleasingSoon = () => {
           {/* Left Side - Image (60%) */}
           <div className="flex items-center justify-center mt-10 md:mt-0 relative w-full">
             <Image
-              src="/images/homepage/releasing-soon.webp"
+              src="/images/homepage/s2ep1.webp"
               alt="Quantum Minds Podcast"
               width={687}
               height={386}
@@ -95,10 +95,10 @@ const ReleasingSoon = () => {
               ref={mainTitleRef}
               className="text-h4 text-left md:text-h3 font-antonio font-semibold text-white "
             >
-              Quantum Minds Podcast: Season #2 Releasing Soon
+              Season 2 EP 1| Kapil Dhiman in conversation with Animoca Brand&rsquo;s Yat Siu
             </h3>
             <p ref={headingRef} className="text-h6 font-montserrat text-left font-medium mt-5 mb-5">
-              Season 2 Teaser | Quantum Minds Podcast – Exclusive Sneak Peek!
+              Season 2 Released | Quantum Minds Podcast
             </p>
 
             {/* Inline Pill Box */}
@@ -109,7 +109,7 @@ const ReleasingSoon = () => {
               <div className="">
                 <div className="flex flex-col items-start gap-3 text-white">
                   <div className="flex items-center gap-5 flex-wrap pr-5">
-                    <Link href="https://youtu.be/yamvBZuSCGg?si=3RaILgVRG0W5QtIY" target="_blank">
+                    <Link href="https://youtu.be/WphsdXWPfMs?si=3pPlJiHhIldzyA1O" target="_blank">
                       <span className="text-h4 font-antonio text-[#08C1F0]"> WATCH EPISODE</span>
                     </Link>
                   </div>
