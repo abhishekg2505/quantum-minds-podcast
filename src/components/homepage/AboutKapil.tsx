@@ -129,8 +129,7 @@ const AboutKapil = () => {
                 <div className="flex flex-col items-start gap-3 text-white">
                   <div className="flex items-center gap-5 flex-wrap pr-5">
                     <Link
-                      href="https://www.linkedin.com/in/kapil-dhiman-5a68b0138?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                      target="_blank"
+                      href="/know-your-host"
                       className="inline-flex items-center justify-center"
                     >
                       <span className="text-h4 font-antonio text-[#08C1F0]"> ABOUT KAPIL</span>
