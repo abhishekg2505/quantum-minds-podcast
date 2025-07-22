@@ -63,8 +63,12 @@ const PodcastList = () => {
         was a huge success.
       </h3>
       {podcasts.slice(0, visibleCount).map((podcast, i) => (
-        <div key={i} className="group grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
-          <div className="flex-1 rounded-2xl relative overflow-hidden">
+        <div key={i} className="grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
+          <Link
+            href={podcast.attributes.videoLink}
+            target="_blank"
+            className="group flex-1 rounded-2xl relative overflow-hidden"
+          >
             <Image
               src={podcast.attributes.cover.data.attributes.url}
               alt={podcast.attributes.title}
@@ -72,7 +76,7 @@ const PodcastList = () => {
               height={500}
               className="w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
             />
-          </div>
+          </Link>
 
           <div className="flex flex-col justify-start items-start flex-1 px-4 pt-10 pb-6">
             <p className="text-h4 font-antonio mb-4">{podcast.attributes.title}</p>
@@ -92,7 +96,7 @@ const PodcastList = () => {
             className="text-h4 font-antonio font-normal uppercase text-[#08C1F0] bg-transparent hover:bg-transparent"
           >
             SEE MORE
-            <ChevronRight className="ml-2 w-5 h-5 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1" />
+            <ChevronRight className="ml-1  mt-1.5 w-9 h-9 text-[#08C1F0] transition-all duration-300 group-hover:translate-x-1 stroke-[#08C1F0] hover:stroke-[#08C1F0]" />
           </Button>
         </div>
       )}

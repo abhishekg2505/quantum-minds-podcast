@@ -33,7 +33,7 @@ const MobileMenu = () => {
         </SheetTrigger>
         <SheetContent
           side="right"
-          className="w-full md:w-[30.5%] h-screen bg-background focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-transparent !max-w-none"
+          className="w-full md:w-[40.5%] h-screen bg-background focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-transparent !max-w-none"
         >
           <div className="mt-[100px]">
             <nav>
