@@ -1,5 +1,5 @@
 export default async function sitemap() {
-  const baseUrl = "https://quranium.org";
+  const baseUrl = "https://www.quantummindspodcast.com/";
   const lastModified = new Date("2024-09-16T05:16:32+00:00");
   const staticMap = [
     {
@@ -9,67 +9,7 @@ export default async function sitemap() {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/about-us`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/dequip`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/quantum-minds-podcast`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/ecosystem`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/the-uncrackable-conversation`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/resources`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/next-gen-innovators`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/quantum-security-awareness-day`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/careers`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/layers-and-lattes`,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/contact-us`,
+      url: `${baseUrl}/about-kapil-dhiman`,
       lastModified,
       changeFrequency: "monthly",
       priority: 0.8,

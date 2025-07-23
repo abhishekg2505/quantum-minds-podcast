@@ -19,7 +19,7 @@ export const navLinks = [
     link: "/",
   },
   {
-    itemName: "Know Your Host",
-    link: "/know-your-host",
+    itemName: "About Kapil Dhiman",
+    link: ROUTES?.ABOUT_KAPIL_DHIMAN,
   },
 ];

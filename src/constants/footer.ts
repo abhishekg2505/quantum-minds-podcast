@@ -2,8 +2,8 @@ import { ROUTES } from "./routes";
 
 export const footer = [
   {
-    title: "Know Your Host",
-    links: [{ name: "Know Your Host", href: "/know-your-host" }],
+    title: "About Kapil Dhiman",
+    links: [{ name: "About Kapil Dhiman", href: ROUTES?.ABOUT_KAPIL_DHIMAN }],
   },
   {
     title: "About Quranium",

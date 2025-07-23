@@ -10,7 +10,21 @@ export const siteMetadata = {
   siteLogo: quraniumPreview.src,
   image: quraniumPreview.src,
   socialBanner: "/static/images/twitter-card.png",
-  twitter: "https://x.com/quranium_org",
-  linkedin: "https://www.linkedin.com/company/quranium/",
+  twitter: "https://x.com/QM_Podcast",
+  linkedin: "https://www.linkedin.com/company/quantum-minds-podcast/",
+  locale: "en-GB",
+};
+export const aboutKapilDhimanMetadata = {
+  title: "Know Your Host: Meet Kapil Dhiman, Visionary CEO of Quranium",
+  description:
+    "Kapil Dhiman leads Quranium into the quantum era. Discover his vision, values, and voice as a host, thinker, and future-tech strategist.",
+  language: "en-us",
+  theme: "system",
+  siteUrl: "https://www.quantummindspodcast.com/",
+  siteLogo: quraniumPreview.src,
+  image: quraniumPreview.src,
+  socialBanner: "/static/images/twitter-card.png",
+  twitter: "https://x.com/QM_Podcast",
+  linkedin: "https://www.linkedin.com/company/quantum-minds-podcast/",
   locale: "en-GB",
 };

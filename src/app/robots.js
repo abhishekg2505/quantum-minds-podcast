@@ -1,5 +1,5 @@
 export default function robots() {
-  const baseUrl = "https://quranium.org";
+  const baseUrl = "https://www.quantummindspodcast.com/";
 
   return {
     rules: [
