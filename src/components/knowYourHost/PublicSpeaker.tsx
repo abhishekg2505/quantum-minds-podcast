@@ -16,9 +16,9 @@ const PublicSpeaker = () => {
   const cardsRef = useRef(null);
   const headingRef = useRef(null);
   const triangleRef = useRef(null);
-  const columnRef = useRef(null);
-  const imgLargeRef = useRef(null);
-  const imgSmallRef = useRef(null);
+  // const columnRef = useRef(null);
+  // const imgLargeRef = useRef(null);
+  // const imgSmallRef = useRef(null);
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -79,31 +79,31 @@ const PublicSpeaker = () => {
         ease: "power1.inOut",
       });
 
-      gsap.to(imgLargeRef.current, {
-        y: -150,
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top bottom",
-          end: "bottom top",
-          scrub: 1,
-        },
-        ease: "none",
-      });
+      // gsap.to(imgLargeRef.current, {
+      //   y: -150,
+      //   scrollTrigger: {
+      //     trigger: sectionRef.current,
+      //     start: "top bottom",
+      //     end: "bottom top",
+      //     scrub: 1,
+      //   },
+      //   ease: "none",
+      // });
 
-      gsap.fromTo(
-        imgSmallRef.current,
-        { y: -90 }, // Start above
-        {
-          y: 150, // End below
-          scrollTrigger: {
-            trigger: sectionRef.current,
-            start: "top bottom",
-            end: "bottom top",
-            scrub: 1,
-          },
-          ease: "none",
-        }
-      );
+      // gsap.fromTo(
+      //   imgSmallRef.current,
+      //   { y: -90 }, // Start above
+      //   {
+      //     y: 150, // End below
+      //     scrollTrigger: {
+      //       trigger: sectionRef.current,
+      //       start: "top bottom",
+      //       end: "bottom top",
+      //       scrub: 1,
+      //     },
+      //     ease: "none",
+      //   }
+      // );
     }, sectionRef);
 
     return () => ctx.revert();
@@ -159,19 +159,17 @@ const PublicSpeaker = () => {
             </div>
 
             {/* Right Side - Text (40%) */}
-            <div ref={columnRef} className="flex  mt-10 md:mt-0 relative w-full order-1 md:order-2">
+            <div className="flex  mt-10 md:mt-0 relative w-full order-1 md:order-2">
               <Image
-                ref={imgLargeRef}
                 src="/images/know-your-host/ps-right-large.webp"
                 alt="PS Right Large"
                 width={614}
                 height={464}
-                className="max-w-full mb-5 md:mb-0 imglarge"
+                className="max-w-full mb-5 md:mb-0 imglarge rounded-[20px]"
               />
 
               <div className="absolute -top-[15px] md:-top-[90px] -right-[15px] md:-right-[53px] will-change-transform">
                 <Image
-                  ref={imgSmallRef}
                   src="/images/know-your-host/ps-right-small.webp"
                   alt="PS Right Small"
                   width={289}

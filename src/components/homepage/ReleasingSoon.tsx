@@ -75,20 +75,18 @@ const ReleasingSoon = () => {
       <div className="max-w-7xl mx-auto pt-0 pb-8 md:py-10 px-4 md:px-10 bg-black rounded-[20px]">
         <div className=" grid grid-cols-1 md:[grid-template-columns:3fr_2fr] gap-0 md:gap-10 items-start text-left">
           {/* Left Side - Image (60%) */}
-          <Link
-            href="https://youtu.be/WphsdXWPfMs?si=3pPlJiHhIldzyA1O"
-            target="_blank"
-            className="group flex items-start justify-start rounded-[20px] mt-10 md:mt-0 relative w-full overflow-hidden"
-          >
-            <Image
-              src="/images/homepage/s2ep1.webp"
-              alt="Quantum Minds Podcast"
-              width={687}
-              height={386}
-              className="w-full rounded-[20px] transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
-              ref={cardsRef}
-            />
-          </Link>
+          <div className="group flex items-start justify-start rounded-[20px] mt-10 md:mt-0 relative w-full overflow-hidden">
+            <Link href="https://youtu.be/WphsdXWPfMs?si=3pPlJiHhIldzyA1O" target="_blank">
+              <Image
+                src="/images/homepage/s2ep1.webp"
+                alt="Quantum Minds Podcast"
+                width={687}
+                height={386}
+                className="w-full rounded-[20px] transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+                ref={cardsRef}
+              />
+            </Link>
+          </div>
 
           {/* Right Side - Text (40%) */}
           <div className="relative z-10">
