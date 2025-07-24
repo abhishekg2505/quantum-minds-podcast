@@ -168,13 +168,13 @@ const PublicSpeaker = () => {
                 className="max-w-full mb-5 md:mb-0 imglarge rounded-[20px]"
               />
 
-              <div className="absolute -top-[15px] md:-top-[90px] -right-[15px] md:-right-[53px] will-change-transform">
+              <div className="absolute -top-[90px] -right-[10px] md:-right-[53px] will-change-transform">
                 <Image
                   src="/images/know-your-host/ps-right-small.webp"
                   alt="PS Right Small"
                   width={289}
                   height={212}
-                  className="max-w-full mb-5 md:mb-0 imgsmall"
+                  className="max-w-full mb-5 md:mb-0 imgsmall w-[200px] h-[150px] md:w-[289px] md:h-[212px]"
                 />
               </div>
             </div>

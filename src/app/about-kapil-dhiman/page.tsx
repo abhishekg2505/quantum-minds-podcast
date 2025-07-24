@@ -7,6 +7,7 @@ import TucSection from "@/src/components/knowYourHost/TucSection";
 import PublicSpeaker from "@/src/components/knowYourHost/PublicSpeaker";
 import { aboutKapilDhimanMetadata } from "@/src/constants/metadata";
 import quraniumPreview from "../../../public/images/quraniumPreview.png";
+import InMedia from "@/src/components/knowYourHost/InMedia";
 export const metadata: Metadata = {
   title: {
     default: aboutKapilDhimanMetadata.title,
@@ -42,6 +43,7 @@ export default function Home() {
     <main className="flex flex-col bg-background">
       <HeroSection />
       <AnchorCards />
+      <InMedia />
       <ConvergenceLayer />
       <TuneIn />
       <TucSection />
