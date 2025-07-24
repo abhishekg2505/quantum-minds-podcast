@@ -32,13 +32,13 @@ import {
   klarda,
   koreaittimes,
   newschain,
-  ngglobalmedia,
   santiment,
   startupnews,
   theblockpedia,
   thecoinrepublic,
   thecryptonomist,
   thejournalwire,
+  thenewscrypto,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -209,11 +209,6 @@ export const mpLogos = [
     url: "https://newzchain.com/",
   },
   {
-    src: ngglobalmedia,
-    alt: ngglobalmedia,
-    url: "https://www.ncglobalmedia.com/",
-  },
-  {
     src: santiment,
     alt: santiment,
     url: "https://t.co/hxhgitN4Z4",
@@ -242,5 +237,10 @@ export const mpLogos = [
     src: thejournalwire,
     alt: thejournalwire,
     url: "https://journal-wire.com/",
+  },
+  {
+    src: thenewscrypto,
+    alt: thenewscrypto,
+    url: "",
   },
 ];
