@@ -54,12 +54,12 @@ const AnchorCards = () => {
           >
             <div className="group perspective">
               <div className="relative w-full transition-transform">
-                <div className="relative w-full bg-[#0D031B] p-10 h-[262px] md:h-[485px] flex flex-col justify-end items-start text-left overflow-hidden">
+                <div className="relative w-full bg-[#0D031B] p-10 h-[300px] md:h-[485px] flex flex-col justify-end items-start text-left overflow-hidden">
                   <Image
                     src={card.media}
                     alt={card.title}
                     fill
-                    className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover"
+                    className="transition-transform duration-500 ease-in-out group-hover:scale-110 object-cover object-top"
                   />
                   <div className="absolute bottom-0 left-0 w-full p-10">
                     <div className="flex flex-row flex-wrap items-center justify-between md:justify-between">
