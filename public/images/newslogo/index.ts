@@ -1,5 +1,6 @@
 export { default as benzinga } from "./benzinga.svg";
 export { default as binance } from "./binance.svg";
+export { default as bitcourier } from "./bitcourier.svg";
 export { default as business } from "./business.svg";
 export { default as cnbc } from "./cnbc.svg";
 export { default as coingecko } from "./coingecko.svg";

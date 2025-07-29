@@ -1,6 +1,7 @@
 import {
   benzinga,
   binance,
+  bitcourier,
   business,
   cnbc,
   coingecko,
@@ -31,6 +32,11 @@ export const newsLogos = [
     src: binance,
     alt: "BINANCE",
     href: "https://www.binance.com/en/square/post/14853969824953",
+  },
+  {
+    src: bitcourier,
+    alt: "Bitcourier",
+    href: "https://bitcourier.co.uk/blog/quranium-review",
   },
   {
     src: business,
