@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const MpGrid = () => {
   return (
-    <div id="media-partners" className="px-4 pt-20 pb-20 bg-black">
+    <div id="media-partners" className="px-4 md:px-10 pt-20 pb-20 bg-black">
       <div className="max-w-7xl mx-auto">
         <h3 className="text-h4 md:text-h3 font-antonio font-semibold text-center mb-10">
           Global{" "}
@@ -19,7 +19,7 @@ const MpGrid = () => {
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                className="h-auto w-auto object-fill"
+                className="h-full w-full object-contain"
                 width={224}
                 height={50}
                 priority
@@ -33,11 +33,15 @@ const MpGrid = () => {
                 key={idx}
                 className="flex justify-center items-center"
               >
-                {imageElement}
+                <div className="h-[60px] w-full flex items-center justify-center">
+                  {imageElement}
+                </div>
               </Link>
             ) : (
               <div key={idx} className="flex justify-center items-center">
-                {imageElement}
+                <div className="h-[60px] w-full flex items-center justify-center">
+                  {imageElement}
+                </div>
               </div>
             );
           })}

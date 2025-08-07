@@ -1,14 +1,22 @@
 import {
   bitcoin,
   bitcoininsider,
+  bitcointoday,
+  bitcoinworld,
+  bitcourier,
   bitget,
+  bitnewsbot,
   bittwome,
   blockchainmagazine,
+  blockchainnorth,
   blockchainreporter,
   blockchaintoday,
   blockhead,
+  brandpr,
   catenaa,
   cim,
+  cnb,
+  coinccino,
   coinchapter,
   coincu,
   coinedition,
@@ -21,7 +29,6 @@ import {
   cryptodashnews,
   cryptodotnews,
   cryptonews,
-  cryptopolitan,
   cryptoslate,
   cryptoweekly,
   disruptionbanking,
@@ -29,16 +36,19 @@ import {
   droomdroom,
   forklog,
   fxstreet,
+  juicegamingnews,
   klarda,
   koreaittimes,
+  ncglobalmedia,
   newschain,
+  prmedia,
   santiment,
   startupnews,
   theblockpedia,
   thecoinrepublic,
   thecryptonomist,
   thejournalwire,
-  thenewscrypto,
+  timesofblockchain,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -53,9 +63,29 @@ export const mpLogos = [
     url: "https://www.bitcoininsider.org/",
   },
   {
+    src: bitcointoday,
+    alt: bitcointoday,
+    url: "https://www.bitcointoday.news/",
+  },
+  {
+    src: bitcoinworld,
+    alt: bitcoinworld,
+    url: "",
+  },
+  {
+    src: bitcourier,
+    alt: bitcourier,
+    url: "https://bitcourier.co.uk/",
+  },
+  {
     src: bitget,
     alt: bitget,
     url: "https://bonus.bitget.com/Y7LM99",
+  },
+  {
+    src: bitnewsbot,
+    alt: bitnewsbot,
+    url: "",
   },
   {
     src: bittwome,
@@ -67,6 +97,11 @@ export const mpLogos = [
     src: blockchainmagazine,
     alt: blockchainmagazine,
     url: "https://blockchainmagazine.com/",
+  },
+  {
+    src: blockchainnorth,
+    alt: blockchainnorth,
+    url: "https://blockchainnorth.ca/",
   },
   {
     src: blockchainreporter,
@@ -84,6 +119,11 @@ export const mpLogos = [
     url: "https://www.blockhead.co/tag/podcast/",
   },
   {
+    src: brandpr,
+    alt: brandpr,
+    url: "",
+  },
+  {
     src: catenaa,
     alt: catenaa,
     url: "https://investors.catenaa.com/",
@@ -92,6 +132,16 @@ export const mpLogos = [
     src: cim,
     alt: cim,
     url: "https://cryptoindiamagazine.com/",
+  },
+  {
+    src: cnb,
+    alt: cnb,
+    url: "",
+  },
+  {
+    src: coinccino,
+    alt: coinccino,
+    url: "http://coinccino.com/",
   },
   {
     src: coinchapter,
@@ -153,11 +203,7 @@ export const mpLogos = [
     alt: cryptonews,
     url: "https://cryptonews.com//",
   },
-  {
-    src: cryptopolitan,
-    alt: cryptopolitan,
-    url: "https://www.cryptopolitan.com/",
-  },
+
   {
     src: cryptoslate,
     alt: cryptoslate,
@@ -194,6 +240,11 @@ export const mpLogos = [
     url: "https://www.fxstreet.com/",
   },
   {
+    src: juicegamingnews,
+    alt: juicegamingnews,
+    url: "https://juicenews.io/",
+  },
+  {
     src: klarda,
     alt: klarda,
     url: "https://klarda.com/en",
@@ -204,10 +255,21 @@ export const mpLogos = [
     url: "https://www.koreaittimes.com/",
   },
   {
+    src: ncglobalmedia,
+    alt: ncglobalmedia,
+    url: "",
+  },
+  {
     src: newschain,
     alt: newschain,
     url: "https://newzchain.com/",
   },
+  {
+    src: prmedia,
+    alt: prmedia,
+    url: "",
+  },
+
   {
     src: santiment,
     alt: santiment,
@@ -239,8 +301,8 @@ export const mpLogos = [
     url: "https://journal-wire.com/",
   },
   {
-    src: thenewscrypto,
-    alt: thenewscrypto,
-    url: "",
+    src: timesofblockchain,
+    alt: timesofblockchain,
+    url: "https://www.timesofblockchain.com/#",
   },
 ];
