@@ -62,7 +62,7 @@ const PodcastList = () => {
         </span>{" "}
         was a huge success.
       </h3>
-      {podcasts.slice(0, visibleCount).map((podcast, i) => (
+      {podcasts.slice(1, visibleCount).map((podcast, i) => (
         <div key={i} className="grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
           <Link
             href={podcast.attributes.videoLink}
