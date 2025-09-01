@@ -19,7 +19,7 @@ const threats: ThreatCardProps[] = [
     description: "Watched from Countries",
   },
   {
-    title: "30M",
+    title: "20M",
     description: "Estimated Episode Reach",
   },
 ];
