@@ -8,6 +8,7 @@ import SubscribeBanner from "@/src/components/homepage/SubscribeBanner";
 import WatchItHere from "@/src/components/homepage/WatchItHere";
 import PodcastList from "@/src/components/homepage/PodcastList";
 import FutureConversation from "@/src/components/homepage/FutureConversation";
+import SeasonTwoGuests from "@/src/components/homepage/SeasonTwoGuests";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutKapil />
       <SubscribeBanner />
       <ReleasingSoon />
+      <SeasonTwoGuests />
       <WatchItHere />
       <PodcastList />
       <SeasonOneGuests />
