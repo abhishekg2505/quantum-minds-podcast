@@ -25,6 +25,9 @@ const cards = [
     image: "/images/homepage/s2guests/matterid.svg",
   },
   {
+    image: "/images/homepage/s2guests/zealshow.svg",
+  },
+  {
     image: "/images/homepage/s2guests/og.svg",
   },
 ];
@@ -72,7 +75,7 @@ export default function InMediaCarouselStwo() {
             slidesPerView: 4,
           },
           1024: {
-            slidesPerView: 5,
+            slidesPerView: 6,
           },
         }}
         className="overflow-hidden flex mt-10 "
