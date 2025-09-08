@@ -133,6 +133,45 @@ const ReleasingSoonSection: React.FC<ReleasingSoonSectionProps> = ({ firstPodcas
         <div className="grid grid-cols-1 md:grid-cols-[40%_60%] gap-0 md:gap-10 items-start text-left mt-[70px]">
           {/* Left Side */}
           <Link
+            href="https://youtu.be/BVRGLvrdmnc?si=D7R_o839A4ISM4Up" // use dynamic field if available
+            target="_blank"
+            className="flex items-start w-full h-full"
+            ref={cardsRef}
+          >
+            <div className="group block w-full h-full overflow-hidden rounded-[20px]">
+              <Image
+                src="/images/homepage/s2ep3.webp" // use API image
+                alt="S2 Ep1"
+                width={425}
+                height={239}
+                className="rounded-[20px] transition-transform duration-500 ease-in-out hover:scale-110"
+              />
+            </div>
+          </Link>
+
+          {/* Right Side */}
+          <div className="relative z-10">
+            <h3 ref={mainTitle2Ref} className="text-h4 font-antonio font-semibold text-white mb-5">
+              Season 2 EP 3 | Kapil Dhiman in Conversation with The Sandbox&rsquo;s Sebastien Borget
+            </h3>
+
+            <div
+              ref={line2Ref}
+              className="flex flex-col md:flex-row md:items-center items-start justify-center md:justify-start gap-4"
+            >
+              <div className="flex flex-col items-start gap-3 text-white">
+                <div className="flex items-center gap-5 flex-wrap pr-5">
+                  <Link href="https://youtu.be/BVRGLvrdmnc?si=D7R_o839A4ISM4Up" target="_blank">
+                    <span className="text-h4 font-antonio text-[#08C1F0]">WATCH EPISODE</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-[40%_60%] gap-0 md:gap-10 items-start text-left mt-[70px]">
+          {/* Left Side */}
+          <Link
             href="https://www.youtube.com/watch?v=tL2H-tu4nfs&t=14s" // use dynamic field if available
             target="_blank"
             className="flex items-start w-full h-full"

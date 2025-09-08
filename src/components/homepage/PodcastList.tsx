@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const PodcastList = () => {
   const [podcasts, setPodcasts] = useState<PodcastData[]>([]);
-  const [visibleCount, setVisibleCount] = useState(3);
+  const [visibleCount, setVisibleCount] = useState(6);
   const sectionRef = useRef(null);
   const triangleRef = useRef(null);
   useEffect(() => {
@@ -62,7 +62,7 @@ const PodcastList = () => {
         </span>{" "}
         was a huge success.
       </h3>
-      {podcasts.slice(2, visibleCount).map((podcast, i) => (
+      {podcasts.slice(3, visibleCount).map((podcast, i) => (
         <div key={i} className="grid md:grid-cols-[40%_60%] gap-6 items-start px-6 py-[15px]">
           <Link
             href={podcast.attributes.videoLink}

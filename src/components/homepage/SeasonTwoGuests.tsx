@@ -70,7 +70,7 @@ const SeasonTwoGuests = () => {
         ref={mainTitleRef}
         className="text-h4 md:text-h3 font-montserrat font-semibold text-center mb-10"
       >
-        Guests from Season #2
+        Some of the Guests from Season #2
       </h3>
       <Carousel direction="left" speed={100}>
         {[...guests, ...guests].map((guest, i) => (
