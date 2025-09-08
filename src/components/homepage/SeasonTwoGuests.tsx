@@ -13,31 +13,37 @@ const guests = [
     name: "Yat Siu",
     role: "Chairman of the Board, Animoca Brands",
     image: "/images/homepage/s2guests/yat-siu.webp",
+    companyLogo: "/images/homepage/s2guests/animocabrands.svg",
   },
   {
     name: "Humayun Sheikh",
     role: "CEO & Founder, Fetch.ai",
     image: "/images/homepage/s2guests/humayun-sheikh.webp",
+    companyLogo: "/images/homepage/s2guests/fetchai.svg",
   },
   {
     name: "Sabastien Borget",
     role: "Co-Founder & COO, The Sandbox",
     image: "/images/homepage/s2guests/sabastien-borget.webp",
+    companyLogo: "/images/homepage/s2guests/thesandbox.svg",
   },
   {
     name: "Raido Saar",
     role: "CEO & Co-founder | Matter-ID",
     image: "/images/homepage/s2guests/raido-saar.webp",
+    companyLogo: "/images/homepage/s2guests/matterid.svg",
   },
   {
     name: "Michael Heinrich",
     role: "Co-Founder 0G Labs",
     image: "/images/homepage/s2guests/michael-heinrich.webp",
+    companyLogo: "/images/homepage/s2guests/og.svg",
   },
   {
     name: "Anson Zeall",
     role: "The Zeall Show, Host | Author of Several books on Bitcoin and Leadership",
     image: "/images/homepage/s2guests/anson-zeall.webp",
+    companyLogo: "",
   },
 ];
 
@@ -86,7 +92,17 @@ const SeasonTwoGuests = () => {
               <p className="text-p2 font-open-sans">{guest.role}</p>
 
               {/* Social Icons */}
-              <div className="flex gap-3 mt-2"></div>
+              <div className="flex gap-3 mt-2">
+                {guest.companyLogo && (
+                  <Image
+                    src={guest.companyLogo}
+                    alt={guest.companyLogo}
+                    width={150}
+                    height={80}
+                    className="object-cover"
+                  />
+                )}
+              </div>
             </div>
           </div>
         ))}
