@@ -38,7 +38,7 @@ const guests = [
   },
   {
     name: "Raido Saar",
-    role: "CEO & Co-founder | Matter-ID",
+    role: "CEO & Co-Founder | Matter-ID",
     image: "/images/homepage/s2guests/raido-saar.webp",
     socials: {
       linkedin: "https://www.linkedin.com/in/raido-saar-43115b169/",
@@ -56,7 +56,7 @@ const guests = [
   },
   {
     name: "Anson Zeall",
-    role: "The Zeall Show, Host | Author of Several books on Bitcoin and Leadership",
+    role: "The Zeall Show, Host",
     image: "/images/homepage/s2guests/anson-zeall.webp",
     socials: {
       linkedin: "https://www.linkedin.com/in/ansonzeall/",
