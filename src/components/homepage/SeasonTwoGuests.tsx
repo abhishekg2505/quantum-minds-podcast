@@ -13,31 +13,55 @@ const guests = [
     name: "Yat Siu",
     role: "Chairman of the Board, Animoca Brands",
     image: "/images/homepage/s2guests/yat-siu.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/yatsiu/",
+      x: "https://x.com/ysiu",
+    },
   },
   {
     name: "Humayun Sheikh",
     role: "CEO & Founder, Fetch.ai",
     image: "/images/homepage/s2guests/humayun-sheikh.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/humayun-sheikh-4530246a/",
+      x: "https://x.com/HMsheikh4",
+    },
   },
   {
     name: "Sabastien Borget",
     role: "Co-Founder & COO, The Sandbox",
     image: "/images/homepage/s2guests/sabastien-borget.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/borgetsebastien/",
+      x: "https://x.com/borgetsebastien",
+    },
   },
   {
     name: "Raido Saar",
     role: "CEO & Co-founder | Matter-ID",
     image: "/images/homepage/s2guests/raido-saar.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/raido-saar-43115b169/",
+      x: "https://x.com/raidosaar",
+    },
   },
   {
     name: "Michael Heinrich",
     role: "Co-Founder 0G Labs",
     image: "/images/homepage/s2guests/michael-heinrich.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/mheinrich/",
+      x: "https://x.com/michaelh_0g",
+    },
   },
   {
     name: "Anson Zeall",
     role: "The Zeall Show, Host | Author of Several books on Bitcoin and Leadership",
     image: "/images/homepage/s2guests/anson-zeall.webp",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/ansonzeall/",
+      x: "https://x.com/0xa8l",
+    },
   },
 ];
 
@@ -89,7 +113,28 @@ const SeasonTwoGuests = () => {
               <p className="text-p2 font-open-sans">{guest.role}</p>
 
               {/* Social Icons */}
-              <div className="flex gap-3 mt-2"></div>
+              <div className="flex gap-3 mt-2">
+                {guest.socials.x && (
+                  <Link href={guest.socials.x} target="_blank">
+                    <Image
+                      src="/images/homepage/guest/twitter.svg"
+                      alt="twitter"
+                      width={18}
+                      height={18}
+                    />
+                  </Link>
+                )}
+                {guest.socials.linkedin && (
+                  <Link href={guest.socials.linkedin} target="_blank">
+                    <Image
+                      src="/images/homepage/guest/linkedin.svg"
+                      alt="linkedin"
+                      width={18}
+                      height={18}
+                    />
+                  </Link>
+                )}
+              </div>
             </div>
           </div>
         ))}
