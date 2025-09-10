@@ -49,6 +49,7 @@ import {
   thecryptonomist,
   thejournalwire,
   timesofblockchain,
+  tokeninsight,
 } from "@/public/images/ecosystem-new/mp";
 
 export const mpLogos = [
@@ -304,5 +305,10 @@ export const mpLogos = [
     src: timesofblockchain,
     alt: timesofblockchain,
     url: "https://www.timesofblockchain.com/#",
+  },
+  {
+    src: tokeninsight,
+    alt: tokeninsight,
+    url: "https://tokeninsight.com/en/cryptocurrencies",
   },
 ];
