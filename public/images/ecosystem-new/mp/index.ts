@@ -49,3 +49,4 @@ export { default as thecryptonomist } from "./thecryptonomist.svg";
 export { default as thejournalwire } from "./thejournalwire.svg";
 export { default as timesofblockchain } from "./timesofblockchain.svg";
 export { default as tokeninsight } from "./tokeninsight.svg";
+export { default as wirebusiness } from "./wirebusiness.svg";
