@@ -129,7 +129,45 @@ const ReleasingSoonSection: React.FC<ReleasingSoonSectionProps> = ({ firstPodcas
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-[40%_60%] gap-0 md:gap-10 items-start text-left mt-[70px]">
+          {/* Left Side */}
+          <Link
+            href="https://youtu.be/h5D1JM04lRE?si=VIQBACN-HjKaYs8S" // use dynamic field if available
+            target="_blank"
+            className="flex items-start w-full h-full"
+            ref={cardsRef}
+          >
+            <div className="group block w-full h-full overflow-hidden rounded-[20px]">
+              <Image
+                src="/images/homepage/s2ep4.webp" // use API image
+                alt="S2 Ep1"
+                width={425}
+                height={239}
+                className="rounded-[20px] transition-transform duration-500 ease-in-out hover:scale-110"
+              />
+            </div>
+          </Link>
 
+          {/* Right Side */}
+          <div className="relative z-10">
+            <h3 ref={mainTitle2Ref} className="text-h4 font-antonio font-semibold text-white mb-5">
+              Season 2 EP 4 | Kapil Dhiman in Conversation with Matter ID&rsquo;s Raido Saar
+            </h3>
+
+            <div
+              ref={line2Ref}
+              className="flex flex-col md:flex-row md:items-center items-start justify-center md:justify-start gap-4"
+            >
+              <div className="flex flex-col items-start gap-3 text-white">
+                <div className="flex items-center gap-5 flex-wrap pr-5">
+                  <Link href="https://youtu.be/h5D1JM04lRE?si=VIQBACN-HjKaYs8S" target="_blank">
+                    <span className="text-h4 font-antonio text-[#08C1F0]">WATCH EPISODE</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-[40%_60%] gap-0 md:gap-10 items-start text-left mt-[70px]">
           {/* Left Side */}
           <Link
